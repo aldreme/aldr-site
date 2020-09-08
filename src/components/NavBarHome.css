@@ -1,6 +1,10 @@
-.NavBar-logo {
+.NavBarHome-logo {
     display: inline-block;
     vertical-align: middle;
     height: 2vw;
     min-height: 30px;
+}
+
+.NavBarHome-navlink {
+    font-size: 1.2em;
 }
