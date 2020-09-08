@@ -1,7 +1,19 @@
-.CarouselHome-image {
+.item-img {
     display:block;
-    height: 30vw;
+    height: 40vw;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.item-img img {
+    height: 100%;
+}
+
+.item-img:after {
+    content: '';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.1);
 }

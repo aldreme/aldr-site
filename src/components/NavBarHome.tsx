@@ -10,7 +10,7 @@ function NavBarHome() {
     return (
         <NavBar bg="light" variant="light" sticky="top">
             <NavBar.Brand href="#home">
-                <img src={logo_dark} className="NavBarHome-logo"/>
+                <img alt="logo" src={logo_dark} className="NavBarHome-logo"/>
             </NavBar.Brand>
             
             <Nav className="mr-auto">

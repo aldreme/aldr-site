@@ -9,29 +9,24 @@ function NavBar() {
     return (
         <Carousel>
             <Carousel.Item>
-                <img
-                    className="CarouselHome-image"
-                    src={bench01}
-                    alt="First slide"
-                />
-                <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
+                <div className="item-img">
+                    <img
+                        src={bench01}
+                        alt="First slide"
+                    />
+                </div>
+                
             </Carousel.Item>
 
             <Carousel.Item>
-                <img
-                    className="CarouselHome-image"
-                    src={bench02}
-                    alt="Second slide"
-                />
-
-                <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
+                <div className="item-img">
+                    <img
+                        src={bench02}
+                        alt="Second slide"
+                    />
+                </div>
             </Carousel.Item>
+            
         </Carousel>
     );
   }
