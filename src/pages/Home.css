@@ -1,0 +1,46 @@
+.Home {
+    perspective: 1px;
+}
+
+.Home-banner {
+    filter: brightness(70%);
+    background-image: url(../assets/images/home/home-banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vmin;
+    z-index: -1;
+}
+
+.Home-banner-caption {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    height: 100vmin;
+    width: 100%;
+}
+
+.Home-banner-caption-h1 {
+    margin: 20px;
+}
+
+.Home-banner-caption-h2 {
+    margin: 20px;
+}
+
+.Home-banner-caption-btn {
+    margin: 20px;
+    width: 30vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
