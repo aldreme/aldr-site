@@ -2,15 +2,15 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './CarouselHome.css'
 
-import bench01 from '../assets/images/stainless_steel_products/bench-01.jpg'
+import db from '../assets/data/db.json';
 
 function CarouselHome() {
-    const numbers = [0,1,2]
-    const items = numbers.map((n) => 
-        <Carousel.Item key={n}>
+    const product_img_dir = "../assets/images/products/stainless_steel/";
+    const products = db.products.stainless_steel.map( item => 
+        <Carousel.Item key={item.name}>
             <div className="item-img">
                 <img
-                    src={bench01}
+                    src= {require("../assets/images/products/stainless_steel/" + item.images[0])}
                     alt="First slide"
                 />
                 
@@ -20,7 +20,7 @@ function CarouselHome() {
 
     return (
         <Carousel>
-            { items }
+            { products }
         </Carousel>
     );
   }

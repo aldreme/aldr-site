@@ -1,0 +1,179 @@
+{
+    "products": {
+        "stainless_steel" : [
+            {
+                "name":"Bench",
+                "category":"",
+                "tag":"",
+                "price": 0,
+                "images": ["bench-01.jpg", "bench-02.jpg", "bench-03.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Cabinet",
+                "category":"",
+                "tag":"",
+                "images": ["cabinet-01.jpg", "bench-02.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Cart",
+                "category":"",
+                "tag":"",
+                "images": ["cart-01.jpg", "cart-02.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Cleaner Cart",
+                "category":"",
+                "tag":"",
+                "images": ["cleaner_cart-01.jpg", "cleaner_cart-02.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Convey Window",
+                "category":"",
+                "tag":"",
+                "images": ["convey_window-01.jpg", "convey_window-02.jpg", "convey_window-03.jpg", "convey_window-04.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Display Frame",
+                "category":"",
+                "tag":"",
+                "images": ["display_frame-01.jpg", "display_frame-02.jpg", "display_frame-03.jpg", "display_frame-04.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Dolly",
+                "category":"",
+                "tag":"",
+                "images": ["dolly-01.jpg", "dolly-02.jpg", "dolly-03.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Electric Workbench",
+                "category":"",
+                "tag":"",
+                "images": ["electric_workbench-01.jpg", "electric_workbench-02.jpg", "electric_workbench-03.jpg", "electric_workbench-04.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Fridge Cart",
+                "category":"",
+                "tag":"",
+                "images": ["fridge_cart-01.jpg", "fridge_cart-02.jpg", "fridge_cart-03.jpg", "fridge_cart-04.jpg", "fridge_cart-05.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Grid Cart",
+                "category":"",
+                "tag":"",
+                "images": ["grid_cart-01.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Grid Dolly",
+                "category":"",
+                "tag":"",
+                "images": ["grid_dolly-01.jpg", "grid_dolly-02.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Locker",
+                "category":"",
+                "tag":"",
+                "images": ["locker-01.jpg", "locker-02.jpg", "locker-03.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Mixer",
+                "category":"",
+                "tag":"",
+                "images": ["mixer-01.jpg", "mixer-02.jpg", "mixer-03.jpg", "mixer-04.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Nitrogen Cabinet",
+                "category":"",
+                "tag":"",
+                "images": ["nitrogen_cabinet-01.jpg", "nitrogen_cabinet-02.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Scaffold",
+                "category":"",
+                "tag":"",
+                "images": ["scaffold-01.jpg", "scaffold-02.jpg", "scaffold-03.jpg", "scaffold-04.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Sink",
+                "category":"",
+                "tag":"",
+                "images": ["sink-01.jpg", "sink-02.jpg", "sink-03.jpg", "sink-04.jpg", "sink-05.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Small Pillar",
+                "category":"",
+                "tag":"",
+                "images": ["small_pillar-01.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Storage Rack",
+                "category":"",
+                "tag":"",
+                "images": ["storage_rack-01.jpg", "storage_rack-02.jpg", "storage_rack-03.jpg", "storage_rack-04.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Table",
+                "category":"",
+                "tag":"",
+                "images": ["table-01.jpg", "table-02.jpg", "table-03.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Trolley",
+                "category":"",
+                "tag":"",
+                "images": ["trolley-01.jpg", "trolley-02.jpg", "trolley-03.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Work Platform",
+                "category":"",
+                "tag":"",
+                "images": ["work_platform-01.jpg", "work_platform-02.jpg"],
+                "description": ""
+            },
+            {
+                "name":"Workbench",
+                "category":"",
+                "tag":"",
+                "images": ["workbench-01.jpg", "workbench-02.jpg", "workbench-03.jpg", "workbench-04.jpg", "workbench-05.jpg", "workbench-06.jpg", "workbench-07.jpg", "workbench-08.jpg"],
+                "description": ""
+            }
+        ]
+    },
+
+    "partners": [
+        {
+            "name": "Johnson & Johnson",
+            "logo_file_name": "JnJ-logo.jpg",
+            "tag":"",
+            "website": "https://www.jnj.com",
+            "description": "Johnson & Johnson is an American multinational corporation founded in 1886 that develops medical devices, pharmaceutical, and consumer packaged goods. Its common stock is a component of the Dow Jones Industrial Average and the company is ranked No. 37 on the 2018 Fortune 500 list of the largest United States corporations by total revenue. J&J is one of the world's most valuable companies."
+
+        },
+        {
+            "name": "Eli Lilly and Company",
+            "logo_file_name": "lilly-logo.jpg",
+            "tag":"",
+            "website": "https://www.lilly.com",
+            "description": "Eli Lilly and Company is an American pharmaceutical company headquartered in Indianapolis, Indiana, with offices in 18 countries. Its products are sold in approximately 125 countries. The company was founded in 1876 by, and named after, Col. Eli Lilly, a pharmaceutical chemist and veteran of the American Civil War."
+        }
+    ]
+}
