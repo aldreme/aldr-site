@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './util/i18n';
 
 import NavBarHome from './components/NavBarHome';
 import FooterHome from './components/FooterHome';

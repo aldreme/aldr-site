@@ -1,6 +1,9 @@
-import React, {useRef, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import Rellax from 'rellax';
 import './Home.css';
+
+// the hook
+import { useTranslation } from 'react-i18next';
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
@@ -11,6 +14,8 @@ import banner_img from '../assets/images/home/home-banner-min.jpg';
 
 
 function Home() {
+    const { t } = useTranslation();
+
     useEffect(() => {
         new Rellax(".rellax", {
         });
@@ -18,19 +23,19 @@ function Home() {
 
     return (
         <div>
-            <div className="Home-banner rellax" data-rellax-speed="1">
+            <div className="Home-banner rellax" data-rellax-speed="0">
                 <img alt="" src={banner_img} className="Home-banner-img" />
                 <div className="Home-banner-caption">
-                    <p className="Home-banner-caption-h1">Design, Manufacture, Polish, Deliver</p>
-                    <p className="Home-banner-caption-h2">High-quality Stainless Steel Products</p>
+                    <p className="Home-banner-caption-h1">{t('home-banner-caption1')}</p>
+                    <p className="Home-banner-caption-h2">{t('home-banner-caption2')}</p>
 
                     <p className="Home-banner-caption-btn"> 
-                        <Button variant="outline-light" size="lg" block>Learn more</Button>
+                        <Button variant="outline-light" size="lg" block>{t('home-banner-btn-learn-more')}</Button>
                     </p>
                 </div>
             </div>
 
-            <div className="Home-body rellax" data-rellax-speed="5">
+            <div className="Home-body rellax" data-rellax-speed="7">
                 <CarouseHome />
             </div>
         </div>

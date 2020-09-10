@@ -31,3 +31,7 @@
 .NavBarHome-lang {
     margin-right: 40px;
 }
+
+.NavBarHome-i18n_icon {
+    filter: opacity(0.5);
+}
