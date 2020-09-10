@@ -3,10 +3,11 @@ import Carousel from 'react-bootstrap/Carousel';
 import './CarouselHome.css'
 
 import db from '../assets/data/db.json';
+import {shuffleArray} from '../util/misc';
 
 function CarouselHome() {
-    const product_img_dir = "../assets/images/products/stainless_steel/";
-    const products = db.products.stainless_steel.map( item => 
+    shuffleArray(db.products.stainless_steel)
+    const products = db.products.stainless_steel.slice(0, 10).map( item => 
         <Carousel.Item key={item.name}>
             <div className="item-img">
                 <img

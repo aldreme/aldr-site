@@ -20,7 +20,7 @@ function NavBarHome() {
                     <Nav.Link bsPrefix="NavBarHome-navlink" href="#home">HOME</Nav.Link>
                     <Nav.Link bsPrefix="NavBarHome-navlink" href="#products">PRODUCTS</Nav.Link>
                     <Nav.Link bsPrefix="NavBarHome-navlink" href="#about">ABOUT US</Nav.Link>
-                    <Nav.Link bsPrefix="NavBarHome-navlink" href="#contact">JOBS</Nav.Link>
+                    <Nav.Link bsPrefix="NavBarHome-navlink" href="#career">CAREERS</Nav.Link>
                     <Nav.Link bsPrefix="NavBarHome-navlink" href="#contact">CONTACT</Nav.Link>
                 </Nav>
 
