@@ -39,7 +39,7 @@ function NavBarHome() {
     })
 
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <NavBar className= {isScrollTop ? "NavBarHome-transparent" : "NavBarHome-solid"} collapseOnSelect expand="lg" variant="dark" fixed="top">
                 <NavBar.Brand href="/">
                     <img alt="logo" src={logo} className="NavBarHome-logo"/>
