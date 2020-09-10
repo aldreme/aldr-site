@@ -4,7 +4,7 @@
 
 .Home-banner {
     filter: brightness(70%);
-    background-image: url(../assets/images/home/home-banner.jpg);
+    background-image: url(../assets/images/home/home-banner-min.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
