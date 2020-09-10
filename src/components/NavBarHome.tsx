@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import Cookies from 'universal-cookie';
 import NavBar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown'
@@ -11,6 +12,8 @@ import logo from '../assets/images/logo/logo-light.png';
 import i18n_icon from '../assets/images/navbar/i18n_icon.svg';
 
 function NavBarHome() {
+    const cookies = new Cookies();
+
     const { t, i18n } = useTranslation();
 
     const [isScrollTop, setScrollTop] = useState(true)
@@ -25,7 +28,7 @@ function NavBarHome() {
     })
 
     return (
-        <NavBar className= {isScrollTop ? "NavBarHome" : "NavBarHome-solid"} collapseOnSelect expand="lg" variant="dark" fixed="top">
+        <NavBar className= {isScrollTop ? "NavBarHome-transparent" : "NavBarHome-solid"} collapseOnSelect expand="lg" variant="dark" fixed="top">
             <NavBar.Brand href="#home">
                 <img alt="logo" src={logo} className="NavBarHome-logo"/>
             </NavBar.Brand>
@@ -44,8 +47,8 @@ function NavBarHome() {
                 <Nav>
                     <img alt="i18n-icon" src={i18n_icon} className="NavBarHome-i18n_icon"/>
                     <NavDropdown title={t('navbar-languages')} id="collasible-nav-dropdown" className="NavBarHome-lang">
-                        <NavDropdown.Item onClick={() => {i18n.changeLanguage('en_us')}}>English</NavDropdown.Item>
-                        <NavDropdown.Item onClick={() => {i18n.changeLanguage('zh_cn')}}>简体中文</NavDropdown.Item>
+                        <NavDropdown.Item onClick={() => {i18n.changeLanguage('en_us'); cookies.set('language', 'en_us'); window.location.reload();}}>English</NavDropdown.Item>
+                        <NavDropdown.Item onClick={() => {i18n.changeLanguage('zh_cn'); cookies.set('language', 'zh_cn'); window.location.reload();}}>简体中文</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
             </NavBar.Collapse>

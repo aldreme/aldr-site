@@ -1,5 +1,6 @@
-.NavBarHome {
-    /* filter: opacity(0.5); */
+.NavBarHome-transparent {
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
 }
 
 .NavBarHome-solid {
