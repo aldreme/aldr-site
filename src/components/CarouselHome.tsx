@@ -11,7 +11,7 @@ function CarouselHome() {
             <div className="item-img">
                 <img
                     src= {require("../assets/images/products/stainless_steel/" + item.images[0])}
-                    alt="First slide"
+                    alt= {item.name}
                 />
                 
             </div>
