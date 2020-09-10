@@ -35,6 +35,16 @@
     text-decoration: none;
 }
 
+.NavBarHome-routelink {
+    color: white;
+    text-decoration: none;
+}
+
+.NavBarHome-routelink:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .NavBarHome-lang {
     margin-right: 40px;
 }

@@ -1,5 +1,4 @@
-import React, {useEffect} from 'react';
-import Rellax from 'rellax';
+import React from 'react';
 import './Home.css';
 
 // the hook
@@ -16,14 +15,9 @@ import banner_img from '../assets/images/home/home-banner-min.jpg';
 function Home() {
     const { t } = useTranslation();
 
-    useEffect(() => {
-        new Rellax(".rellax", {
-        });
-    });
-
     return (
         <div>
-            <div className="Home-banner rellax" data-rellax-speed="0">
+            <div>
                 <img alt="" src={banner_img} className="Home-banner-img" />
                 <div className="Home-banner-caption">
                     <p className="Home-banner-caption-h1">{t('home-banner-caption1')}</p>
@@ -35,9 +29,12 @@ function Home() {
                 </div>
             </div>
 
-            <div className="Home-body rellax" data-rellax-speed="7">
-                <CarouseHome />
-            </div>
+            <Jumbotron>
+                <h1>Hey there.</h1>
+                <Button size="lg">Explore</Button>
+            </Jumbotron>
+            
+            <CarouseHome />
         </div>
     );
     
