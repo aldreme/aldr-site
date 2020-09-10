@@ -1,15 +1,11 @@
-.Home {
-    perspective: 1px;
+.Home-banner {
+    height: 100vmin;
 }
 
-.Home-banner {
+.Home-banner-img {
     filter: brightness(70%);
-    background-image: url(../assets/images/home/home-banner-min.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
     height: 100vmin;
+    width: 100%;
     z-index: -1;
 }
 
@@ -23,7 +19,6 @@
     color: rgba(255, 255, 255, 0.8);
     display: flex;
     flex-direction: column;
-    z-index: 1;
     height: 100vmin;
     width: 100%;
 }
@@ -65,6 +60,10 @@
     animation-name: fadein, slideup;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
+}
+
+.Home-body {
+    background-color: white;
 }
 
 @keyframes fadein {

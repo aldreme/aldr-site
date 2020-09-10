@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useRef, useEffect} from 'react';
+import Rellax from 'rellax';
 import './Home.css';
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -6,11 +7,19 @@ import Button from 'react-bootstrap/Button';
 
 import CarouseHome from '../components/CarouselHome';
 
+import banner_img from '../assets/images/home/home-banner-min.jpg';
+
+
 function Home() {
+    useEffect(() => {
+        new Rellax(".rellax", {
+        });
+    });
+
     return (
-        <div className="Home">
-            <div>
-                <div className="Home-banner" />
+        <div>
+            <div className="Home-banner rellax" data-rellax-speed="1">
+                <img alt="" src={banner_img} className="Home-banner-img" />
                 <div className="Home-banner-caption">
                     <p className="Home-banner-caption-h1">Design, Manufacture, Polish, Deliver</p>
                     <p className="Home-banner-caption-h2">High-quality Stainless Steel Products</p>
@@ -20,16 +29,13 @@ function Home() {
                     </p>
                 </div>
             </div>
-            
-        
-            <Jumbotron>
-                <h1>TO DO</h1>
-            </Jumbotron>
 
-            <CarouseHome />
+            <div className="Home-body rellax" data-rellax-speed="5">
+                <CarouseHome />
+            </div>
         </div>
-        
     );
+    
 }
 
 export default Home;
