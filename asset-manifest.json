@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6495aff5.chunk.css",
-    "main.js": "/static/js/main.5d63dd29.chunk.js",
-    "main.js.map": "/static/js/main.5d63dd29.chunk.js.map",
+    "main.css": "/static/css/main.47af3f4b.chunk.css",
+    "main.js": "/static/js/main.756c42e4.chunk.js",
+    "main.js.map": "/static/js/main.756c42e4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.486fdf55.js",
     "runtime-main.js.map": "/static/js/runtime-main.486fdf55.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.26155d1e.chunk.js": "/static/js/2.26155d1e.chunk.js",
-    "static/js/2.26155d1e.chunk.js.map": "/static/js/2.26155d1e.chunk.js.map",
+    "static/js/2.64385f85.chunk.js": "/static/js/2.64385f85.chunk.js",
+    "static/js/2.64385f85.chunk.js.map": "/static/js/2.64385f85.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.478bca39a1dd818ae4efbac51e500fc1.js": "/precache-manifest.478bca39a1dd818ae4efbac51e500fc1.js",
+    "precache-manifest.197a7a2bfd72af893ab4da79d3b63473.js": "/precache-manifest.197a7a2bfd72af893ab4da79d3b63473.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.6495aff5.chunk.css.map": "/static/css/main.6495aff5.chunk.css.map",
-    "static/js/2.26155d1e.chunk.js.LICENSE.txt": "/static/js/2.26155d1e.chunk.js.LICENSE.txt",
+    "static/css/main.47af3f4b.chunk.css.map": "/static/css/main.47af3f4b.chunk.css.map",
+    "static/js/2.64385f85.chunk.js.LICENSE.txt": "/static/js/2.64385f85.chunk.js.LICENSE.txt",
     "static/media/bench-01.jpg": "/static/media/bench-01.e30c5ac1.jpg",
     "static/media/bench-02.jpg": "/static/media/bench-02.82df2e61.jpg",
     "static/media/bench-03.jpg": "/static/media/bench-03.1bac06f7.jpg",
@@ -43,10 +43,12 @@
     "static/media/fridge_cart-03.jpg": "/static/media/fridge_cart-03.4579796a.jpg",
     "static/media/fridge_cart-04.jpg": "/static/media/fridge_cart-04.265a1099.jpg",
     "static/media/fridge_cart-05.jpg": "/static/media/fridge_cart-05.a5fb603f.jpg",
+    "static/media/getFetch.cjs": "/static/media/getFetch.013f0b90.cjs",
     "static/media/grid_cart-01.jpg": "/static/media/grid_cart-01.80a70c73.jpg",
     "static/media/grid_dolly-01.jpg": "/static/media/grid_dolly-01.d6d3ff49.jpg",
     "static/media/grid_dolly-02.jpg": "/static/media/grid_dolly-02.65bfb682.jpg",
     "static/media/home-banner-min.jpg": "/static/media/home-banner-min.1a0b08ad.jpg",
+    "static/media/i18n_icon.svg": "/static/media/i18n_icon.63d8b577.svg",
     "static/media/locker-01.jpg": "/static/media/locker-01.7f33b36d.jpg",
     "static/media/locker-02.jpg": "/static/media/locker-02.368f01cf.jpg",
     "static/media/locker-03.jpg": "/static/media/locker-03.57b1a31b.jpg",
@@ -91,8 +93,8 @@
   "entrypoints": [
     "static/js/runtime-main.486fdf55.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.26155d1e.chunk.js",
-    "static/css/main.6495aff5.chunk.css",
-    "static/js/main.5d63dd29.chunk.js"
+    "static/js/2.64385f85.chunk.js",
+    "static/css/main.47af3f4b.chunk.css",
+    "static/js/main.756c42e4.chunk.js"
   ]
 }
