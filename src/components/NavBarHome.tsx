@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import NavBar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown'
@@ -13,8 +13,19 @@ import i18n_icon from '../assets/images/navbar/i18n_icon.svg';
 function NavBarHome() {
     const { t, i18n } = useTranslation();
 
+    const [isScrollTop, setScrollTop] = useState(true)
+
+    useEffect(() => {
+        document.addEventListener("scroll", () => {
+            const scrollTopCheck = window.scrollY < 500
+            if (scrollTopCheck !== isScrollTop) {
+                setScrollTop(scrollTopCheck)
+            }
+        })
+    })
+
     return (
-        <NavBar className="NavBarHome" collapseOnSelect expand="lg" variant="dark" fixed="top">
+        <NavBar className= {isScrollTop ? "NavBarHome" : "NavBarHome-solid"} collapseOnSelect expand="lg" variant="dark" fixed="top">
             <NavBar.Brand href="#home">
                 <img alt="logo" src={logo} className="NavBarHome-logo"/>
             </NavBar.Brand>

@@ -2,6 +2,12 @@
     /* filter: opacity(0.5); */
 }
 
+.NavBarHome-solid {
+    background-color: rgb(41, 42, 51, 0.85);
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+}
+
 .NavBarHome-logo {
     display: inline-block;
     vertical-align: middle;
