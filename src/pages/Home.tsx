@@ -27,6 +27,10 @@ function Home() {
                     </p>
                 </div>
             </div>
+
+            <div className="Home-partners">
+                <p className="Home-partners-caption">{t("Our Partners")}</p>
+            </div>
             
             <Carousel />
         </div>
