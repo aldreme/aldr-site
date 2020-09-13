@@ -1,15 +1,15 @@
-.NavBarHome-transparent {
+.NavBar-transparent {
     transition-duration: .5s;
     transition-timing-function: ease-out;
 }
 
-.NavBarHome-solid {
-    background-color: rgba(41, 42, 51, 0.85);
+.NavBar-solid {
+    background-color: rgba(41, 42, 51, 0.9);
     transition-duration: .5s;
     transition-timing-function: ease-out;
 }
 
-.NavBarHome-logo {
+.NavBar-logo {
     display: inline-block;
     vertical-align: middle;
     height: 2vw;
@@ -17,7 +17,7 @@
     margin: 5px;
 }
 
-.NavBarHome-navlink {
+.NavBar-navlink {
     font-size: 1.2em;
     font-family: Arial;
     padding-left: 20px;
@@ -29,26 +29,32 @@
     border-radius: 2px;
 }
 
-.NavBarHome-navlink:hover {
+.NavBar-navlink:hover {
     background-color: rgba(255, 255, 255, 0.3);
     color: white;
     text-decoration: none;
 }
 
-.NavBarHome-routelink {
+.NavBar-routelink {
     color: white;
     text-decoration: none;
 }
 
-.NavBarHome-routelink:hover {
+.NavBar-routelink:hover {
     color: white;
     text-decoration: none;
 }
 
-.NavBarHome-lang {
-    margin-right: 40px;
+.NavBar-lang {
+    position: relative;
+    top: -15px;
 }
 
-.NavBarHome-i18n_icon {
-    filter: opacity(0.5);
+.NavBar-lang::before {
+    content: url('../assets/images/navbar/i18n_icon.svg');
+    position: relative;
+    left:-70px;
+    top: 38px;
+    width: 10px;
+    height: 10px;
 }

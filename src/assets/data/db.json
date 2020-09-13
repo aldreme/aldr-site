@@ -7,154 +7,395 @@
                 "tag":"",
                 "price": 0,
                 "images": ["bench-01.jpg", "bench-02.jpg", "bench-03.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Cabinet",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["cabinet-01.jpg", "bench-02.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Cart",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["cart-01.jpg", "cart-02.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Cleaner Cart",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["cleaner_cart-01.jpg", "cleaner_cart-02.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Convey Window",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["convey_window-01.jpg", "convey_window-02.jpg", "convey_window-03.jpg", "convey_window-04.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Display Frame",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["display_frame-01.jpg", "display_frame-02.jpg", "display_frame-03.jpg", "display_frame-04.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Dolly",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["dolly-01.jpg", "dolly-02.jpg", "dolly-03.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Electric Workbench",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["electric_workbench-01.jpg", "electric_workbench-02.jpg", "electric_workbench-03.jpg", "electric_workbench-04.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Fridge Cart",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["fridge_cart-01.jpg", "fridge_cart-02.jpg", "fridge_cart-03.jpg", "fridge_cart-04.jpg", "fridge_cart-05.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Grid Cart",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["grid_cart-01.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Grid Dolly",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["grid_dolly-01.jpg", "grid_dolly-02.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Locker",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["locker-01.jpg", "locker-02.jpg", "locker-03.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Mixer",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["mixer-01.jpg", "mixer-02.jpg", "mixer-03.jpg", "mixer-04.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Nitrogen Cabinet",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["nitrogen_cabinet-01.jpg", "nitrogen_cabinet-02.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Scaffold",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["scaffold-01.jpg", "scaffold-02.jpg", "scaffold-03.jpg", "scaffold-04.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Sink",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["sink-01.jpg", "sink-02.jpg", "sink-03.jpg", "sink-04.jpg", "sink-05.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Small Pillar",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["small_pillar-01.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Storage Rack",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["storage_rack-01.jpg", "storage_rack-02.jpg", "storage_rack-03.jpg", "storage_rack-04.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Table",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["table-01.jpg", "table-02.jpg", "table-03.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Trolley",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["trolley-01.jpg", "trolley-02.jpg", "trolley-03.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Work Platform",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["work_platform-01.jpg", "work_platform-02.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             },
             {
                 "name":"Workbench",
                 "category":"",
                 "tag":"",
+                "price": 0,
                 "images": ["workbench-01.jpg", "workbench-02.jpg", "workbench-03.jpg", "workbench-04.jpg", "workbench-05.jpg", "workbench-06.jpg", "workbench-07.jpg", "workbench-08.jpg"],
-                "description": ""
+                "description": "",
+                "specs": {
+                    "dimension": {
+                        "width": 0,
+                        "height": 0,
+                        "length": 0
+                    },
+                    "weight": 0,
+                    "material": "304",
+                    "technology": "seamless welding, mirror finish"
+                }
             }
         ]
     },

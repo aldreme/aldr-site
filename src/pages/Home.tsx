@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 
 import Button from 'react-bootstrap/Button';
 
-import CarouseHome from '../components/CarouselHome';
+import Carousel from '../components/Carousel';
 
 import banner_img from '../assets/images/home/home-banner-min.jpg';
 
@@ -28,7 +28,7 @@ function Home() {
                 </div>
             </div>
             
-            <CarouseHome />
+            <Carousel />
         </div>
     );
     
