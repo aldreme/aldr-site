@@ -4,7 +4,6 @@ import './Home.css';
 // the hook
 import { useTranslation } from 'react-i18next';
 
-import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
 
 import CarouseHome from '../components/CarouselHome';
@@ -28,11 +27,6 @@ function Home() {
                     </p>
                 </div>
             </div>
-
-            <Jumbotron>
-                <h1>Hey there.</h1>
-                <Button size="lg">Explore</Button>
-            </Jumbotron>
             
             <CarouseHome />
         </div>

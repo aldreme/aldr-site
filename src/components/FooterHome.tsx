@@ -1,11 +1,11 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-// import './FooterHome.css';
+import './FooterHome.css';
 
 function FooterHome() {
     return (
-        <Card className="text-center">
-          <Card.Footer className="text-muted">ALDR@2020</Card.Footer>
+        <Card className="text-center FooterHome">
+          <Card.Footer>Copyright &#169; 2020 ALDR, LLC. All rights reserved</Card.Footer>
         </Card>
     );
 }

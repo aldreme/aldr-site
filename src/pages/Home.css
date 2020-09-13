@@ -7,6 +7,7 @@
     width: 100%;
     height: auto;
     z-index: -1;
+    mask-image: linear-gradient(to top, rgba(7, 14, 18, 0) 0%, rgba(7, 14, 18, 0.85) 100%);
 }
 
 .Home-banner-caption {
@@ -25,7 +26,7 @@
 
 .Home-banner-caption-h1 {
     margin: 20px;
-    font-size: 8vmin;
+    font-size: 5vw;
     position: relative;
     opacity: 0;
 
@@ -36,7 +37,7 @@
 
 .Home-banner-caption-h2 {
     margin: 20px;
-    font-size: 6vmin;
+    font-size: 4vw;
     position: relative;
     opacity: 0;
 
@@ -48,7 +49,8 @@
 
 .Home-banner-caption-btn {
     margin: 20px;
-    width: 30vmin;
+    width: 15vmax;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +62,10 @@
     animation-name: fadein, slideup;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
+}
+
+.Home-banner-caption-btn .btn-lg {
+    font-size: 2vw;
 }
 
 .Home-body {

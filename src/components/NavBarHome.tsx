@@ -28,10 +28,11 @@ function NavBarHome() {
     const { t, i18n } = useTranslation();
 
     const [isScrollTop, setScrollTop] = useState(true)
+    const [isNavToggled, setNavToggled] = useState(false)
 
     useEffect(() => {
         document.addEventListener("scroll", () => {
-            const scrollTopCheck = window.scrollY < 500
+            const scrollTopCheck = window.scrollY < 0.1 * window.innerHeight
             if (scrollTopCheck !== isScrollTop) {
                 setScrollTop(scrollTopCheck)
             }
@@ -40,12 +41,14 @@ function NavBarHome() {
 
     return (
         <Router basename={process.env.PUBLIC_URL}>
-            <NavBar className= {isScrollTop ? "NavBarHome-transparent" : "NavBarHome-solid"} collapseOnSelect expand="lg" variant="dark" fixed="top">
+            <NavBar className= {isScrollTop ? (isNavToggled ? "NavBarHome-solid" : "NavBarHome-transparent") : "NavBarHome-solid"} collapseOnSelect expand="lg" variant="dark" fixed="top">
                 <NavBar.Brand href="/">
                     <img alt="logo" src={logo} className="NavBarHome-logo"/>
                 </NavBar.Brand>
 
-                <NavBar.Toggle aria-controls="responsive-navbar-nav" />
+                <NavBar.Toggle aria-controls="responsive-navbar-nav" onClick={() => {
+                    setNavToggled(!isNavToggled)
+                }} />
                 
                 <NavBar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">

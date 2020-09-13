@@ -6,7 +6,7 @@ import CarouseHome from '../components/CarouselHome';
 
 function Products() {
     return (
-        <div className="Products">
+        <div>
             <CarouseHome />
             
             <Jumbotron>
