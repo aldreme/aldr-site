@@ -15,7 +15,6 @@ import {
 } from 'react-router-dom';
 
 import logo from '../assets/images/logo/logo-light.png';
-import i18n_icon from '../assets/images/navbar/i18n_icon.svg';
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
