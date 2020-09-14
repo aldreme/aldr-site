@@ -1,0 +1,19 @@
+.Partners-layout {
+    display: flex;
+}
+
+.Partners-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Partners-item img {
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 25%;
+    background-color: white;
+    padding: 20px;
+}

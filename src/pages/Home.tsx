@@ -5,8 +5,8 @@ import './Home.css';
 import { useTranslation } from 'react-i18next';
 
 import Button from 'react-bootstrap/Button';
-
 import Carousel from '../components/Carousel';
+import Partners from '../components/Partners';
 
 import banner_img from '../assets/images/home/home-banner-min.jpg';
 
@@ -30,9 +30,13 @@ function Home() {
 
             <div className="Home-partners">
                 <p className="Home-partners-caption">{t("Our Partners")}</p>
+                <Partners />
             </div>
-            
-            <Carousel />
+
+            <div className="Home-gallery">
+                <p className="Home-gallery-caption">{t("Products Gallery")}</p>
+                <Carousel />
+            </div>
         </div>
     );
     

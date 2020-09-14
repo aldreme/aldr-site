@@ -84,10 +84,20 @@
 
 .Home-partners-caption {
     font-size: 5vw;
+    margin-bottom: 5vh;
+}
+
+.Home-gallery {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
     
-    animation-duration: 1s;
-    animation-name: fadein, slideup;
-    animation-fill-mode: forwards;
+    color: white;
+}
+
+.Home-gallery-caption {
+    font-size: 5vw;
+    margin-bottom: 5vh;
 }
 
 @keyframes fadein {
