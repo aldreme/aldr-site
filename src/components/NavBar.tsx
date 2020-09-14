@@ -9,11 +9,6 @@ import './NavBar.css'
 import { useTranslation } from 'react-i18next';
 
 import {
-    TransitionGroup,
-    CSSTransition
-} from "react-transition-group";
-
-import {
     BrowserRouter as Router,
     Switch,
     Route,
