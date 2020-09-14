@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -16,4 +18,12 @@
     border-radius: 25%;
     background-color: white;
     padding: 20px;
+
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+}
+
+.Partners-item img:hover {
+    width: 21vmin;
+    height: 21vmin;
 }
