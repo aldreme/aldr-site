@@ -15,10 +15,11 @@ function Home() {
     const { t } = useTranslation();
 
     return (
-        <div>
-            <div>
+        <div className="Home-layout">
+            <div className="Home-banner">
                 <img alt="" src={banner_img} className="Home-banner-img" />
                 <div className="Home-banner-caption">
+                    <p className="Home-banner-caption-h0">{t('home-banner-caption0')}</p>
                     <p className="Home-banner-caption-h1">{t('home-banner-caption1')}</p>
                     <p className="Home-banner-caption-h2">{t('home-banner-caption2')}</p>
 
@@ -28,14 +29,14 @@ function Home() {
                 </div>
             </div>
 
-            <div className="Home-partners">
-                <p className="Home-partners-caption">{t("Our Partners")}</p>
-                <Partners />
-            </div>
-
             <div className="Home-gallery">
                 <p className="Home-gallery-caption">{t("Products Gallery")}</p>
                 <Carousel />
+            </div>
+
+            <div className="Home-partners">
+                <p className="Home-partners-caption">{t("Our Partners")}</p>
+                <Partners />
             </div>
         </div>
     );

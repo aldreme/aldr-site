@@ -11,7 +11,7 @@
 }
 
 .Home-banner-caption {
-    top: 0px;
+    top: 10vmin;
     left: 0px;
     position: absolute;
 
@@ -25,20 +25,27 @@
     width: 100%;
 }
 
-.Home-banner-caption-h1 {
-    margin: 20px;
-    font-size: 5vw;
+.Home-banner-caption-h0 {
+    display: flex;
+    align-items: center;
+
+    flex:2;
+    font-size: 6vw;
     position: relative;
     opacity: 0;
+    font-weight: bolder;
 
     animation-duration: 1s;
     animation-name: fadein, slideup;
     animation-fill-mode: forwards;
 }
 
-.Home-banner-caption-h2 {
-    margin: 20px;
-    font-size: 4vw;
+.Home-banner-caption-h1 {
+    display: flex;
+    align-items: center;
+
+    flex:1;
+    font-size: 5vw;
     position: relative;
     opacity: 0;
 
@@ -48,8 +55,23 @@
     animation-fill-mode: forwards;
 }
 
+.Home-banner-caption-h2 {
+    display: flex;
+    align-items: center;
+
+    flex:1;
+    font-size: 4vw;
+    position: relative;
+    opacity: 0;
+
+    animation-duration: 1s;
+    animation-name: fadein, slideup;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
 .Home-banner-caption-btn {
-    margin: 20px;
+    flex:2;
     width: 15vmax;
     
     display: flex;
@@ -61,7 +83,7 @@
 
     animation-duration: 1s;
     animation-name: fadein, slideup;
-    animation-delay: 0.5s;
+    animation-delay: 0.75s;
     animation-fill-mode: forwards;
 }
 
@@ -69,25 +91,13 @@
     font-size: 2vw;
 }
 
-.Home-body {
-    background-color: white;
-}
-
-.Home-partners {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    color: white;
-}
-
 .Home-partners-caption {
     font-size: 5vw;
+    font-weight: bold;
     margin-bottom: 5vh;
 }
 
-.Home-gallery {
+.Home-gallery { 
     margin-top: 20vh;
     display: flex;
     flex-direction: column;
@@ -97,7 +107,18 @@
 
 .Home-gallery-caption {
     font-size: 5vw;
+    font-weight: bold;
     margin-bottom: 5vh;
+}
+
+.Home-partners {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
 }
 
 @keyframes fadein {
