@@ -405,16 +405,86 @@
             "name": "Johnson & Johnson",
             "logo_file_name": "JnJ-logo.jpg",
             "tag":"",
-            "website": "https://www.jnj.com",
-            "description": "Johnson & Johnson is an American multinational corporation founded in 1886 that develops medical devices, pharmaceutical, and consumer packaged goods. Its common stock is a component of the Dow Jones Industrial Average and the company is ranked No. 37 on the 2018 Fortune 500 list of the largest United States corporations by total revenue. J&J is one of the world's most valuable companies."
+            "website": "www.jnj.com",
+            "description": ""
 
         },
         {
             "name": "Eli Lilly and Company",
             "logo_file_name": "lilly-logo.png",
             "tag":"",
-            "website": "https://www.lilly.com",
-            "description": "Eli Lilly and Company is an American pharmaceutical company headquartered in Indianapolis, Indiana, with offices in 18 countries. Its products are sold in approximately 125 countries. The company was founded in 1876 by, and named after, Col. Eli Lilly, a pharmaceutical chemist and veteran of the American Civil War."
+            "website": "www.lilly.com",
+            "description": ""
+        },
+        {
+            "name": "Weyth Nutrition",
+            "logo_file_name": "wn-logo.svg",
+            "tag":"",
+            "website": "www.wyethnutrition.com",
+            "description": ""
+        },
+        {
+            "name": "Merck & Co., Inc.",
+            "logo_file_name": "merck-logo.svg",
+            "tag":"",
+            "website": "www.merck.com",
+            "description": ""
+        },
+        {
+            "name": "Roche Diagnostics",
+            "logo_file_name": "roche-logo.png",
+            "tag":"",
+            "website": "www.roche.com",
+            "description": ""
+        },
+        {
+            "name": "Novartis",
+            "logo_file_name": "novartis-logo.svg",
+            "tag":"",
+            "website": "www.novartis.com",
+            "description": ""
+        },
+        {
+            "name": "Corning",
+            "logo_file_name": "corning-logo.jpg",
+            "tag":"",
+            "website": "www.corning.com",
+            "description": ""
+        },
+        {
+            "name": "Nestle",
+            "logo_file_name": "nestle-logo.png",
+            "tag":"",
+            "website": "www.nestle.com",
+            "description": ""
+        },
+        {
+            "name": "AstraZeneca",
+            "logo_file_name": "astrazeneca-logo.jpg",
+            "tag":"",
+            "website": "www.astrazeneca.com",
+            "description": ""
+        },
+        {
+            "name": "Servier Laboratories",
+            "logo_file_name": "servier-logo.svg",
+            "tag":"",
+            "website": "www.servier.com",
+            "description": ""
+        },
+        {
+            "name": "Pfizer",
+            "logo_file_name": "pfizer-logo.png",
+            "tag":"",
+            "website": "www.pfizer.com",
+            "description": ""
+        },
+        {
+            "name": "ThermoFisher",
+            "logo_file_name": "thermofisher-logo.png",
+            "tag":"",
+            "website": "www.thermofisher.com",
+            "description": ""
         }
     ]
 }

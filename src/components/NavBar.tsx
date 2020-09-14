@@ -9,9 +9,16 @@ import './NavBar.css'
 import { useTranslation } from 'react-i18next';
 
 import {
+    TransitionGroup,
+    CSSTransition
+} from "react-transition-group";
+
+import {
     BrowserRouter as Router,
     Switch,
-    Route
+    Route,
+    Redirect,
+    useLocation
 } from 'react-router-dom';
 
 import logo from '../assets/images/logo/logo-light.png';
@@ -22,6 +29,22 @@ import Careers from '../pages/Careers';
 import Products from '../pages/Products';
 
 function NavBar() {
+    return (
+        <Router basename={process.env.PUBLIC_URL}>
+            <Switch>
+                <Route exact path="/">
+                    <Redirect to="/home" />
+                </Route>
+                <Route path="*">
+                    <AnimationApp/>
+                </Route>
+            </Switch>
+        </Router>
+        
+    );
+  }
+
+  function AnimationApp() {
     const cookies = new Cookies();
 
     const { t, i18n } = useTranslation();
@@ -38,8 +61,10 @@ function NavBar() {
         });
     });
 
+    let location = useLocation();
+
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <div>
             <NavBarBase className= {isScrollTop ? (isNavToggled ? "NavBar-solid" : "NavBar-transparent") : "NavBar-solid"} collapseOnSelect expand="lg" variant="dark" fixed="top">
                 <NavBarBase.Brand href="/">
                     <img alt="logo" src={logo} className="NavBar-logo"/>
@@ -51,7 +76,7 @@ function NavBar() {
                 
                 <NavBarBase.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link bsPrefix="NavBar-navlink" href="/">{t('navbar-home')}</Nav.Link>
+                        <Nav.Link bsPrefix="NavBar-navlink" href="/home">{t('navbar-home')}</Nav.Link>
                         <Nav.Link bsPrefix="NavBar-navlink" href="/products">{t('navbar-products')}</Nav.Link>
                         <Nav.Link bsPrefix="NavBar-navlink" href="/about">{t('navbar-aboutus')}</Nav.Link>
                         <Nav.Link bsPrefix="NavBar-navlink" href="/careers">{t('navbar-careers')}</Nav.Link>
@@ -66,27 +91,17 @@ function NavBar() {
                     </Nav>
                 </NavBarBase.Collapse>
             </NavBarBase>
-
-            <Switch>
-                <Route exact path="/">
-                    <Home />
-                </Route>
-                <Route path="/products">
-                    <Products />
-                </Route>
-                <Route path="/about">
-                    <About />
-                </Route>
-                <Route path="/careers">
-                    <Careers />
-                </Route>
-                <Route path="/contact">
-                    <Contact />
-                </Route>
+            
+            <Switch location={location}>
+                <Route exact path="/home" component = {Home}/>
+                <Route path="/products" component = {Products}/>
+                <Route path="/about" component = {About}/>
+                <Route path="/careers" component = {Careers}/>
+                <Route path="/contact" component = {Contact}/>
             </Switch>
-        </Router>
         
-    );
+        </div>
+    )
   }
   
   export default NavBar;

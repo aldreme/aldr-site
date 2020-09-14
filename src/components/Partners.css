@@ -1,5 +1,9 @@
 .Partners-layout {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .Partners-item {
@@ -8,22 +12,26 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 24vmin;
+    height: 24vmin;
+    
+    margin: 10px;
+    margin: 10px;
 }
 
 .Partners-item img {
-    width: 20vmin;
-    height: 20vmin;
-    border-radius: 25%;
+    padding: 2vmin;
     background-color: white;
-    padding: 20px;
+    border-radius: 10%;
 
-    transition-duration: 0.1s;
+    width: 22vmin;
+    height: 22vmin;
+
+    transition-duration: 0.2s;
     transition-timing-function: ease-out;
 }
 
 .Partners-item img:hover {
-    width: 21vmin;
-    height: 21vmin;
+    width: 24vmin;
+    height: 24vmin;
 }
