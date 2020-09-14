@@ -1,35 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c3999b702797846f5f33128b2f6ef5b",
+    "revision": "23009acd67f548b5cefa56a6e41a87d1",
     "url": "/index.html"
   },
   {
-    "revision": "71c9e4d325f520d93077",
+    "revision": "5f96d60fcdf927786d46",
     "url": "/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "fc8fc05964b8f41650e1",
-    "url": "/static/css/main.11e10acb.chunk.css"
+    "revision": "ee9e40c5d3e51c6dfdd4",
+    "url": "/static/css/main.08d9998b.chunk.css"
   },
   {
-    "revision": "71c9e4d325f520d93077",
-    "url": "/static/js/2.0f72acfc.chunk.js"
+    "revision": "5f96d60fcdf927786d46",
+    "url": "/static/js/2.eb246a77.chunk.js"
   },
   {
     "revision": "f576af3254df0679363d3e6ffe804e36",
-    "url": "/static/js/2.0f72acfc.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.eb246a77.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc8fc05964b8f41650e1",
-    "url": "/static/js/main.7d917996.chunk.js"
+    "revision": "ee9e40c5d3e51c6dfdd4",
+    "url": "/static/js/main.db2f10bf.chunk.js"
   },
   {
     "revision": "bfe64756a92e059e4eca",
     "url": "/static/js/runtime-main.486fdf55.js"
   },
   {
-    "revision": "d2169db47aac26eec7fca4516829686b",
-    "url": "/static/media/JnJ-logo.d2169db4.jpg"
+    "revision": "206f1246f505f5e799c28a3f4d3e253e",
+    "url": "/static/media/JnJ-logo.206f1246.jpg"
+  },
+  {
+    "revision": "d5df2fcdfba3e2ac510aae59dee6f318",
+    "url": "/static/media/astrazeneca-logo.d5df2fcd.jpg"
   },
   {
     "revision": "a04f587d736e751cf5361fb8ed6ec5e6",
@@ -82,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7d67b15093f680b42aa8578b3e96cc3a",
     "url": "/static/media/convey_window-04.7d67b150.jpg"
+  },
+  {
+    "revision": "696aa4c5d23dafe3fbbe567ba342a297",
+    "url": "/static/media/corning-logo.696aa4c5.jpg"
   },
   {
     "revision": "367f29259f9414cb15467f3cc326f818",
@@ -172,8 +180,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/i18n_icon.63d8b577.svg"
   },
   {
-    "revision": "86281e8b6b3bffeca4a7deee1b35d25a",
-    "url": "/static/media/lilly-logo.86281e8b.png"
+    "revision": "91ca342c9a1ba66331c3a7d3b56c1e6a",
+    "url": "/static/media/lilly-logo.91ca342c.png"
   },
   {
     "revision": "ca31b439d9db670d0e6832cff638a943",
@@ -192,6 +200,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo-light.9a4e2a75.png"
   },
   {
+    "revision": "56fc4af67cafc49cb1455f533b4e0d2c",
+    "url": "/static/media/merck-logo.56fc4af6.svg"
+  },
+  {
     "revision": "e0953f04417b19cc72764a9038372ab6",
     "url": "/static/media/mixer-01.e0953f04.jpg"
   },
@@ -208,12 +220,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mixer-04.cc2d09e1.jpg"
   },
   {
+    "revision": "0c3edbd4365b5ba62372693cf288e444",
+    "url": "/static/media/nestle-logo.0c3edbd4.png"
+  },
+  {
     "revision": "a1f22a18c079f401d41cb833b9531ee9",
     "url": "/static/media/nitrogen_cabinet-01.a1f22a18.jpg"
   },
   {
     "revision": "3fb851b8d35981035dc52c0013d9751c",
     "url": "/static/media/nitrogen_cabinet-02.3fb851b8.jpg"
+  },
+  {
+    "revision": "8ac3d472101d80ffaca4ecbdd73b434f",
+    "url": "/static/media/novartis-logo.8ac3d472.svg"
+  },
+  {
+    "revision": "5d72dce36f51c91a79ecad93d2db56f0",
+    "url": "/static/media/pfizer-logo.5d72dce3.png"
   },
   {
     "revision": "16a0d47d05e5555c6f744bb2ba31f04f",
@@ -230,6 +254,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6354f322f277ab80b652c5fe03da743e",
     "url": "/static/media/scaffold-04.6354f322.jpg"
+  },
+  {
+    "revision": "5083dcf7f8ddcd74d858f8a8137fab41",
+    "url": "/static/media/servier-logo.5083dcf7.svg"
   },
   {
     "revision": "8d4398b63c26da1e2590647b6ff891ce",
@@ -284,6 +312,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/table-03.833ce3b6.jpg"
   },
   {
+    "revision": "505e10bd09c478be4c9cfd9188176cca",
+    "url": "/static/media/thermofisher-logo.505e10bd.png"
+  },
+  {
     "revision": "670bb4697e3662c0b75c0146a33fd7d6",
     "url": "/static/media/trolley-01.670bb469.jpg"
   },
@@ -294,6 +326,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "63e2db0739d5d112a657667811aab6cd",
     "url": "/static/media/trolley-03.63e2db07.jpg"
+  },
+  {
+    "revision": "5248d6569bcb67501a3a905575656514",
+    "url": "/static/media/wn-logo.5248d656.svg"
   },
   {
     "revision": "32033c815db36ce4220cf13cc3308c33",
