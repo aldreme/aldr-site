@@ -36,7 +36,7 @@ function NavBar() {
                 setScrollTop(scrollTopCheck)
             }
         });
-    })
+    });
 
     return (
         <Router basename={process.env.PUBLIC_URL}>
