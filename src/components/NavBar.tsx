@@ -9,8 +9,8 @@ import './NavBar.css'
 import { useTranslation } from 'react-i18next';
 
 import {
-    BrowserRouter as Router,
-    Switch,
+    HashRouter as Router,
+    NavLink,
     Route,
     useLocation
 } from 'react-router-dom';
@@ -24,7 +24,7 @@ import Products from '../pages/Products';
 
 function NavBar() {
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
             <AnimationApp/>
         </Router>
         
@@ -63,11 +63,11 @@ function NavBar() {
                 
                 <NavBarBase.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link bsPrefix="NavBar-navlink" href="/">{t('navbar-home')}</Nav.Link>
-                        <Nav.Link bsPrefix="NavBar-navlink" href="/products">{t('navbar-products')}</Nav.Link>
-                        <Nav.Link bsPrefix="NavBar-navlink" href="/about">{t('navbar-aboutus')}</Nav.Link>
-                        <Nav.Link bsPrefix="NavBar-navlink" href="/careers">{t('navbar-careers')}</Nav.Link>
-                        <Nav.Link bsPrefix="NavBar-navlink" href="/contact">{t('navbar-contact')}</Nav.Link>
+                        <NavLink className="NavBar-navlink" to="/">{t('navbar-home')}</NavLink>
+                        <NavLink className="NavBar-navlink" to="/products">{t('navbar-products')}</NavLink>
+                        <NavLink className="NavBar-navlink" to="/about">{t('navbar-aboutus')}</NavLink>
+                        <NavLink className="NavBar-navlink" to="/careers">{t('navbar-careers')}</NavLink>
+                        <NavLink className="NavBar-navlink" to="/contact">{t('navbar-contact')}</NavLink>
                     </Nav>
 
                     <Nav>
@@ -79,14 +79,13 @@ function NavBar() {
                 </NavBarBase.Collapse>
             </NavBarBase>
             
-            <Switch location={location}>
-                <Route exact path="/" children = {<Home />}/>
-                <Route path="/products" children = {<Products />}/>
-                <Route path="/about" children = {<About />}/>
-                <Route path="/careers" children = {<Careers />}/>
-                <Route path="/contact" children = {<Contact />}/>
-            </Switch>
-        
+            <div>
+                <Route exact path="/" component = {Home}/>
+                <Route path="/products" component = {Products}/>
+                <Route path="/about" component = {About}/>
+                <Route path="/careers" component = {Careers}/>
+                <Route path="/contact" component = {Contact}/>
+            </div>
         </div>
     )
   }
