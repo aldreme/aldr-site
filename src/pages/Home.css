@@ -34,7 +34,7 @@
     position: relative;
     opacity: 0;
     font-weight: bolder;
-    text-shadow: #FFFFFF 0px 0px 50px;
+    text-shadow: #FFFFFF 0px 0px 10px;
 
     animation-duration: 1s;
     animation-name: fadein, slideup;
@@ -45,7 +45,7 @@
 }
 
 .Home-banner-caption-h0:hover {
-    text-shadow: #FFFFFF 0px 0px 10px;
+    text-shadow: #FFFFFF 0px 0px 50px;
 }
 
 .Home-banner-caption-h1 {
@@ -56,6 +56,9 @@
     font-size: 5vw;
     position: relative;
     opacity: 0;
+
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
 
     animation-duration: 1s;
     animation-name: fadein, slideup;
@@ -72,6 +75,9 @@
     position: relative;
     opacity: 0;
 
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
+
     animation-duration: 1s;
     animation-name: fadein, slideup;
     animation-delay: 0.5s;
@@ -81,6 +87,8 @@
 .Home-banner-caption-btn {
     flex:2;
     width: 15vmax;
+
+    margin-bottom: 5vmin;
     
     display: flex;
     justify-content: center;
@@ -88,6 +96,9 @@
     flex-direction: row;
     position: relative;
     opacity: 0;
+
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
 
     animation-duration: 1s;
     animation-name: fadein, slideup;
@@ -100,26 +111,6 @@
     border-width: 3px;
 }
 
-.Home-partners-caption {
-    font-size: 5vw;
-    font-weight: bold;
-    margin-bottom: 5vh;
-}
-
-.Home-gallery { 
-    margin-top: 20vh;
-    display: flex;
-    flex-direction: column;
-    
-    color: white;
-}
-
-.Home-gallery-caption {
-    font-size: 5vw;
-    font-weight: bold;
-    margin-bottom: 5vh;
-}
-
 .Home-partners {
     margin-top: 20vh;
     display: flex;
@@ -128,6 +119,38 @@
     align-items: center;
     
     color: white;
+
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
+}
+
+.Home-partners-caption {
+    font-size: 5vw;
+    font-weight: bold;
+    margin-bottom: 5vh;
+
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
+}
+
+.Home-gallery { 
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    
+    color: white;
+
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
+}
+
+.Home-gallery-caption {
+    font-size: 5vw;
+    font-weight: bold;
+    margin-bottom: 5vh;
+
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
 }
 
 @keyframes fadein {
