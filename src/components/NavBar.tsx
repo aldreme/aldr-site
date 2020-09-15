@@ -26,14 +26,7 @@ import Products from '../pages/Products';
 function NavBar() {
     return (
         <Router basename={process.env.PUBLIC_URL}>
-            <Switch>
-                <Route exact path="/">
-                    <Redirect to="/home" />
-                </Route>
-                <Route path="*">
-                    <AnimationApp/>
-                </Route>
-            </Switch>
+            <AnimationApp/>
         </Router>
         
     );
@@ -88,7 +81,7 @@ function NavBar() {
             </NavBarBase>
             
             <Switch location={location}>
-                <Route exact path="/home" component = {Home}/>
+                <Route exact path="/" component = {Home}/>
                 <Route path="/products" component = {Products}/>
                 <Route path="/about" component = {About}/>
                 <Route path="/careers" component = {Careers}/>
