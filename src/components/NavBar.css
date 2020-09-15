@@ -15,6 +15,13 @@
     height: 2vw;
     min-height: 30px;
     margin: 5px;
+
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+}
+
+.NavBar-logo:hover {
+    box-shadow: #FFFFFF 0 0 20px;
 }
 
 .NavBar-navlink {
