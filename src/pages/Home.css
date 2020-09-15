@@ -34,10 +34,18 @@
     position: relative;
     opacity: 0;
     font-weight: bolder;
+    text-shadow: #FFFFFF 0px 0px 50px;
 
     animation-duration: 1s;
     animation-name: fadein, slideup;
     animation-fill-mode: forwards;
+
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
+}
+
+.Home-banner-caption-h0:hover {
+    text-shadow: #FFFFFF 0px 0px 10px;
 }
 
 .Home-banner-caption-h1 {
@@ -89,6 +97,7 @@
 
 .Home-banner-caption-btn .btn-lg {
     font-size: 2vw;
+    border-width: 3px;
 }
 
 .Home-partners-caption {

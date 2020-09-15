@@ -9,9 +9,11 @@ function Footer() {
   const { t } = useTranslation();
 
   return (
-      <Card className="text-center Footer">
-        <Card.Footer>{t("Copyright")} &#169; {t("2020 ALDR LLC. All rights reserved")}</Card.Footer>
-      </Card>
+    <Card className="text-center Footer">
+      <Card.Footer>
+        {t("Copyright")} &#169; {t("2020 ALDR LLC. All rights reserved")}
+        </Card.Footer>
+    </Card>
   );
 }
 

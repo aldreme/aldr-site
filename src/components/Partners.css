@@ -12,11 +12,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 24vmin;
-    height: 24vmin;
-    
-    margin: 10px;
-    margin: 10px;
+    width: 30vmin;
+    height: 30vmin;
 }
 
 .Partners-item img {
@@ -27,11 +24,11 @@
     width: 22vmin;
     height: 22vmin;
 
-    transition-duration: 0.2s;
+    transition-duration: 200ms;
     transition-timing-function: ease-out;
 }
 
 .Partners-item img:hover {
-    width: 24vmin;
-    height: 24vmin;
+    width: 30vmin;
+    height: 30vmin;
 }
