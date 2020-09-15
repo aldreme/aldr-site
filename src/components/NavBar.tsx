@@ -63,7 +63,7 @@ function NavBar() {
                 
                 <NavBarBase.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link bsPrefix="NavBar-navlink" href="/home">{t('navbar-home')}</Nav.Link>
+                        <Nav.Link bsPrefix="NavBar-navlink" href="/">{t('navbar-home')}</Nav.Link>
                         <Nav.Link bsPrefix="NavBar-navlink" href="/products">{t('navbar-products')}</Nav.Link>
                         <Nav.Link bsPrefix="NavBar-navlink" href="/about">{t('navbar-aboutus')}</Nav.Link>
                         <Nav.Link bsPrefix="NavBar-navlink" href="/careers">{t('navbar-careers')}</Nav.Link>
