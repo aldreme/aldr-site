@@ -80,11 +80,11 @@ function NavBar() {
             </NavBarBase>
             
             <Switch location={location}>
-                <Route exact path="/" component = {Home}/>
-                <Route path="/products" component = {Products}/>
-                <Route path="/about" component = {About}/>
-                <Route path="/careers" component = {Careers}/>
-                <Route path="/contact" component = {Contact}/>
+                <Route exact path="/" children = {<Home />}/>
+                <Route path="/products" children = {<Products />}/>
+                <Route path="/about" children = {<About />}/>
+                <Route path="/careers" children = {<Careers />}/>
+                <Route path="/contact" children = {<Contact />}/>
             </Switch>
         
         </div>
