@@ -11,8 +11,7 @@ import { useTranslation } from 'react-i18next';
 import {
     HashRouter as Router,
     NavLink,
-    Route,
-    useLocation
+    Route
 } from 'react-router-dom';
 
 import logo from '../assets/images/logo/logo-light.png';
