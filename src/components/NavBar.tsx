@@ -12,7 +12,6 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Redirect,
     useLocation
 } from 'react-router-dom';
 
