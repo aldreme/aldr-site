@@ -27,7 +27,6 @@ function NavBar() {
         <Router>
             <AnimationApp/>
         </Router>
-        
     );
   }
 
@@ -47,8 +46,6 @@ function NavBar() {
             }
         });
     });
-
-    let location = useLocation();
 
     return (
         <div>
