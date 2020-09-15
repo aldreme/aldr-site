@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import '../common/common.css';
 
 // the hook
 import { useTranslation } from 'react-i18next';
@@ -15,7 +16,7 @@ function Home() {
     const { t } = useTranslation();
 
     return (
-        <div className="Home-layout">
+        <div className="Home-layout noselect">
             <div className="Home-banner">
                 <img alt="" src={banner_img} className="Home-banner-img" />
                 <div className="Home-banner-caption">
