@@ -1,0 +1,7 @@
+.Careers-layout {
+    opacity: 0;
+    
+    animation-duration: 1s;
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+}
