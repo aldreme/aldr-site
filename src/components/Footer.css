@@ -3,3 +3,16 @@
     color: white;
     font-size: 0.8vw;
 }
+
+.Footer-icp {
+    font-size: 0.8em;
+}
+
+.Footer-icp-license {
+    color: white;
+}
+
+.Footer-icp-license:hover {
+    text-decoration: none;
+    color: white;
+}

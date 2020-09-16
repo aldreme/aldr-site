@@ -11,8 +11,13 @@ function Footer() {
   return (
     <Card className="text-center Footer">
       <Card.Footer>
-        {t("Copyright")} &#169; {t("2020 ALDR LLC. All rights reserved")}
-        </Card.Footer>
+        <div>
+          {t("Copyright")} &#169; {t("2020 ALDR LLC. All rights reserved")}
+        </div>
+        <div className="Footer-icp">
+          <a className="Footer-icp-license" href="http://beian.miit.gov.cn">{t("cn-icp-license")}</a>
+        </div>
+      </Card.Footer>
     </Card>
   );
 }
