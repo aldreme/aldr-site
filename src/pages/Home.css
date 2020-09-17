@@ -164,23 +164,3 @@
     transition-duration: 150ms;
     transition-timing-function: ease-out;
 }
-
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes slideup {
-    from {
-        top: 100px;
-    }
-
-    to {
-        top: 0px;
-    }
-}

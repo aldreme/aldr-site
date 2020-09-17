@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './Home.css';
 
 // the hook
@@ -9,7 +9,6 @@ import Carousel from '../components/Carousel';
 import Partners from '../components/Partners';
 
 import banner_img from '../assets/images/home/home-banner-min.jpg';
-
 
 function Home() {
     const { t } = useTranslation();
