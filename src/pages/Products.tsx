@@ -1,30 +1,23 @@
 import React from 'react';
 import './Products.css';
-import Jumbotron from 'react-bootstrap/esm/Jumbotron';
-import Button from 'react-bootstrap/esm/Button';
-import Carousel from '../components/Carousel';
+
+// the hook
+import { useTranslation } from 'react-i18next';
+
+import banner_img from '../assets/images/products/products-banner.jpg';
 
 function Products() {
+    const { t } = useTranslation();
+
     return (
-        <div className="Product-layout">
-            <Carousel />
-            
-            <Jumbotron>
-                <h1>Products</h1>
-                <h2>This is a page with testing content, still under development</h2>
-                <Carousel />
-                <Carousel />
-            </Jumbotron>
+        <div className="Products-layout">
+            <div className="Products-banner">
+                <img alt="" src={banner_img} className="Products-banner-img" />
 
-            <Jumbotron>
-                <h1>Hey there.</h1>
-                <Button size="lg">Explore</Button>
-            </Jumbotron>
-
-            <Jumbotron>
-                <h1>Hey there.</h1>
-                <Button size="lg">Explore</Button>
-            </Jumbotron>
+                <div className="Products-banner-caption">
+                    <p className="Products-banner-caption-h0">{t('PRODUCTS')}</p>
+                </div>
+            </div>
         </div>
     );
 }

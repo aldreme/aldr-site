@@ -1,3 +1,5 @@
+@import '../common/common.css';
+
 .Home-layout {
     opacity: 0;
     
@@ -7,7 +9,7 @@
 }
 
 .Home-banner {
-    height: 100vmin;
+    width: 100%;
 }
 
 .Home-banner-img {
@@ -164,7 +166,7 @@
 
 @keyframes fadein {
     from {
-        opacity: 0;
+        opacity: 0.1;
     }
 
     to {

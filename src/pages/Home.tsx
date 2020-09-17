@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-import '../common/common.css';
 
 // the hook
 import { useTranslation } from 'react-i18next';

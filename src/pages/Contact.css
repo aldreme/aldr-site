@@ -1,7 +1,80 @@
+@import '../common/common.css';
+
 .Contact-layout {
     opacity: 0;
     
     animation-duration: 1s;
     animation-name: fadein;
     animation-fill-mode: forwards;
+}
+
+.Contact-banner {
+    width: 100%;
+}
+
+.Contact-banner-img {
+    filter: brightness(70%);
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    mask-image: linear-gradient(to top, rgba(7, 14, 18, 0) 0%, rgba(7, 14, 18, 0.85) 100%);
+    filter: blur(5px);
+}
+
+.Contact-banner-caption {
+    top: 10vmin;
+    left: 0px;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 0.8);
+    height: 100vmin;
+    width: 100%;
+}
+
+.Contact-banner-caption-h0 {
+    display: flex;
+    align-items: center;
+
+    flex:2;
+    font-size: 6vw;
+    position: relative;
+    opacity: 0;
+    font-weight: bolder;
+    text-shadow: #FFFFFF 0px 0px 10px;
+
+    animation-duration: 1s;
+    animation-name: fadein, slideup;
+    animation-fill-mode: forwards;
+
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
+}
+
+.Contact-banner-caption-h0:hover {
+    text-shadow: #FFFFFF 0px 0px 50px;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0.1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideup {
+    from {
+        top: 100px;
+    }
+
+    to {
+        top: 0px;
+    }
 }
