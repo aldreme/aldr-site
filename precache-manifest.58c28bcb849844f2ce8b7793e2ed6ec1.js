@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cba00d4c09abea670fad78b586159a9b",
+    "revision": "757237ec1dc596cb8f400f3e6a43205f",
     "url": "/index.html"
   },
   {
-    "revision": "82057cf5c81da9e38d26",
+    "revision": "6a8a198475deda72d243",
     "url": "/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "8c159b91f55536e59c21",
-    "url": "/static/css/main.345deb89.chunk.css"
+    "revision": "9aeb50862a7772b606ee",
+    "url": "/static/css/main.2db7ad99.chunk.css"
   },
   {
-    "revision": "82057cf5c81da9e38d26",
-    "url": "/static/js/2.035684d9.chunk.js"
+    "revision": "6a8a198475deda72d243",
+    "url": "/static/js/2.ba174206.chunk.js"
   },
   {
     "revision": "f576af3254df0679363d3e6ffe804e36",
-    "url": "/static/js/2.035684d9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ba174206.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8c159b91f55536e59c21",
-    "url": "/static/js/main.e563e679.chunk.js"
+    "revision": "9aeb50862a7772b606ee",
+    "url": "/static/js/main.734cd329.chunk.js"
   },
   {
     "revision": "bfe64756a92e059e4eca",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "206f1246f505f5e799c28a3f4d3e253e",
     "url": "/static/media/JnJ-logo.206f1246.jpg"
+  },
+  {
+    "revision": "86f0d47ef8b99b9a3cd9f9f57ff00413",
+    "url": "/static/media/about-banner.86f0d47e.jpg"
   },
   {
     "revision": "d5df2fcdfba3e2ac510aae59dee6f318",
@@ -56,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cabinet-02.d8173c16.jpg"
   },
   {
+    "revision": "24509e441668a4994ed6695fb69325df",
+    "url": "/static/media/careers-banner.24509e44.jpg"
+  },
+  {
     "revision": "2f8880acc1fdcdc494d446425a33e1a4",
     "url": "/static/media/cart-01.2f8880ac.jpg"
   },
@@ -70,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f000065e2e5a070db934685831b54ebb",
     "url": "/static/media/cleaner_cart-02.f000065e.jpg"
+  },
+  {
+    "revision": "e813aa0f9314d8e067e8ecb797fe057f",
+    "url": "/static/media/contact-banner.e813aa0f.jpg"
   },
   {
     "revision": "d495c8e22a30470fc3ed905211079e27",
@@ -238,6 +250,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5d72dce36f51c91a79ecad93d2db56f0",
     "url": "/static/media/pfizer-logo.5d72dce3.png"
+  },
+  {
+    "revision": "36815c7e5ee8763752ce17b25c2e1fbf",
+    "url": "/static/media/products-banner.36815c7e.jpg"
   },
   {
     "revision": "6f6d0329d8e1d14cb4149762f0fba4ad",
