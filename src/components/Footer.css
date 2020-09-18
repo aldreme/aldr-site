@@ -9,10 +9,35 @@
 }
 
 .Footer-icp-license {
+    font-size: 0.8em;
     color: white;
 }
 
 .Footer-icp-license:hover {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
+}
+
+.Footer-ccp-police {
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-decoration: none;
+}
+
+.Footer-ccp-police a  {
+    font-size: 0.8em;
+    color: white;
+    margin-right: 20px;
+}
+
+.Footer-ccp-police a:hover  {
+    color: white;
+    text-decoration: none;
+}
+
+.Footer-ccp-police-license-icon {
+    margin-right: 2px;
 }
