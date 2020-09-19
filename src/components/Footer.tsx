@@ -21,7 +21,7 @@ function Footer() {
         </div>
 
         <div className="Footer-ccp-police">
-          <a href="">
+          <a href=" ">
             <img className="Footer-ccp-police-license-icon" alt="" src={police_icon} /> {t("cn-police-license")}
           </a>
         </div>
