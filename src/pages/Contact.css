@@ -1,12 +1,6 @@
 @import '../common/common.css';
 
 .Contact-layout {
-    opacity: 0;
-    
-    animation-duration: 2s;
-    animation-name: fadein;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
 }
 
 .Contact-banner {

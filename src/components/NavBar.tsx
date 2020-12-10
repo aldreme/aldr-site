@@ -2,14 +2,15 @@ import React, {useState, useEffect} from 'react';
 import Cookies from 'universal-cookie';
 import NavBarBase from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown'
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import {CSSTransition} from 'react-transition-group';
 import './NavBar.css'
 
 // the hook
 import { useTranslation } from 'react-i18next';
 
 import {
-    HashRouter as Router,
+    BrowserRouter as Router,
     NavLink,
     Route
 } from 'react-router-dom';
@@ -46,6 +47,14 @@ function NavBar() {
         });
     });
 
+    const routes = [
+        { path: '/', name: t('navbar-home'), Component: Home },
+        { path: '/products', name: t('navbar-products'), Component: Products },
+        { path: '/about', name: t('navbar-aboutus'), Component: About },
+        { path: '/careers', name: t('navbar-careers'), Component: Careers },
+        { path: '/contact', name: t('navbar-contact'), Component: Contact },
+    ];
+
     return (
         <div>
             <NavBarBase className= {isScrollTop ? (isNavToggled ? "NavBar-solid" : "NavBar-transparent") : "NavBar-solid"} collapseOnSelect expand="lg" variant="dark" fixed="top">
@@ -59,11 +68,17 @@ function NavBar() {
                 
                 <NavBarBase.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <NavLink className="NavBar-navlink" to="/">{t('navbar-home')}</NavLink>
-                        <NavLink className="NavBar-navlink" to="/products">{t('navbar-products')}</NavLink>
-                        <NavLink className="NavBar-navlink" to="/about">{t('navbar-aboutus')}</NavLink>
-                        <NavLink className="NavBar-navlink" to="/careers">{t('navbar-careers')}</NavLink>
-                        <NavLink className="NavBar-navlink" to="/contact">{t('navbar-contact')}</NavLink>
+                        {routes.map(route => (
+                            <NavLink
+                                className='NavBar-navlink'
+                                key={route.path}
+                                to={route.path}
+                                activeClassName="active"
+                                exact
+                            >
+                                {route.name}
+                            </NavLink>
+                        ))}
                     </Nav>
 
                     <Nav>
@@ -76,11 +91,22 @@ function NavBar() {
             </NavBarBase>
             
             <div>
-                <Route exact path="/" component = {Home}/>
-                <Route path="/products" component = {Products}/>
-                <Route path="/about" component = {About}/>
-                <Route path="/careers" component = {Careers}/>
-                <Route path="/contact" component = {Contact}/>
+                {routes.map(({ path, Component }) => (
+                <Route key={path} exact path={path}>
+                    {({ match }) => (
+                    <CSSTransition
+                        in={match != null}
+                        timeout={500}
+                        classNames='page'
+                        unmountOnExit
+                    >
+                        <div className='page'>
+                            <Component />
+                        </div>
+                    </CSSTransition>
+                    )}
+                </Route>
+                ))}
             </div>
         </div>
     )
