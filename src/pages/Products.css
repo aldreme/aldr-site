@@ -2,7 +2,7 @@
 
 .Products-layout {
     width: 100%;
-    min-height: 50vh;
+    min-height: 100vh;
     background-color: black;
     padding-top: 30vmin;
 }
