@@ -10,12 +10,14 @@ function Careers() {
     const { t } = useTranslation();
 
     return (
-        <div className="Careers-layout noselect">
-            <div className="Careers-banner">
-                <img alt="" src={banner_img} className="Careers-banner-img" />
+        <div className='Careers-layout noselect'>
+            <div className='Careers-banner'>
+                <div className='Careers-banner-img'>
+                    <img alt="" src={banner_img}/>
+                </div>
 
-                <div className="Careers-banner-caption">
-                    <p className="Careers-banner-caption-h0">{t('CAREERS')}</p>
+                <div className='Careers-banner-caption'>
+                    <p className='Careers-banner-caption-h0'>{t('CAREERS')}</p>
                 </div>
             </div>
         </div>

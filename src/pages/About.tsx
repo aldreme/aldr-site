@@ -10,12 +10,14 @@ function About() {
     const { t } = useTranslation();
 
     return (
-        <div className="About-layout noselect">
-            <div className="About-banner">
-                <img alt="" src={banner_img} className="About-banner-img" />
+        <div className='About-layout noselect'>
+            <div className='About-banner'>
+                <div className='About-banner-img'>
+                    <img alt="" src={banner_img} />
+                </div>
 
-                <div className="About-banner-caption">
-                    <p className="About-banner-caption-h0">{t('ABOUT US')}</p>
+                <div className='About-banner-caption'>
+                    <p className='About-banner-caption-h0'>{t('ABOUT US')}</p>
                 </div>
             </div>
         </div>
