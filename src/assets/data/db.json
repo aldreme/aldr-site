@@ -486,5 +486,36 @@
             "website": "www.thermofisher.com",
             "description": ""
         }
+    ],
+
+    "jobs": [
+        {
+            "priority": 0,
+            "title": "Sales Manager",
+            "base": "Suzhou, China",
+            "description": "jd-sales-mgr",
+            "salary": "150k"
+        },
+        {
+            "priority": 1,
+            "title": "Mechanical Engineer",
+            "base": "Suzhou, China",
+            "description": "jd-me",
+            "salary": "150k"
+        },
+        {
+            "priority": 2,
+            "title": "PLC Engineer",
+            "base": "Suzhou, China",
+            "description": "jd-plc-e",
+            "salary": "150k"
+        },
+        {
+            "priority": 3,
+            "title": "Senior Welder",
+            "base": "Suzhou, China",
+            "description": "jd-sr-welder",
+            "salary": "100k"
+        }
     ]
 }

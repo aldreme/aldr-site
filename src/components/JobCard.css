@@ -1,0 +1,81 @@
+@import '../common/common.css';
+
+.JobCard {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+    border-radius: 1vmin;
+    padding: 2vmin;
+    margin: 2vmin;
+    
+    z-index: 0;
+    opacity: 0;
+    animation-duration: 1s;
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+.JobCard:hover {
+    transform: scale(1.05);
+}
+
+.JobCard-caption-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.JobCard-caption {
+    width: 100%;
+    font-size: 4vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.JobCard-caption p {
+    text-align: left;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.JobCard-caption-left {
+    min-width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.JobCard-caption-left p {
+    text-align: left;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.JobCard-description {
+    font-size: 2vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    opacity: 0;
+    animation-duration: 1s;
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+}
+
+.JobCard-description p{
+    white-space: pre-line;
+    text-align: left;
+}

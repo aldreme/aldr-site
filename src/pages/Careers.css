@@ -74,3 +74,12 @@
 .Careers-banner-caption-h0:hover {
     text-shadow: #FFFFFF 0px 0px 50px;
 }
+
+.Jobs-list-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding-left: 40vmin;
+    padding-right: 40vmin;
+}

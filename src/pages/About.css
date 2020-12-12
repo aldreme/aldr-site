@@ -4,7 +4,7 @@
     width: 100%;
     min-height: 100vh;
     background-color: black;
-    padding-top: 30vmin;
+    padding-top: 20vmin;
 }
 
 .About-banner {
@@ -74,4 +74,29 @@
 
 .About-banner-caption-h0:hover {
     text-shadow: #FFFFFF 0px 0px 50px;
+}
+
+.About-content {
+    width: 100%;
+    font-size: 3vmin;
+    color: #FFFFFF;
+    line-height: 8vmin;
+    text-align: left;
+
+    padding: 10vmin;
+
+    opacity: 0;
+    animation-duration: 1s;
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.About-content p {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 3vmin;
+    border-radius: 1vmin;
+
+    box-shadow: 0px 0px 20px rgba(255, 253, 255, 0.3);
+    white-space: pre-line;
 }

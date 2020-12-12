@@ -21,7 +21,7 @@ function Products() {
 
             let id = 0;
             const prods = products_data.map(item => {
-                return <ProductItemCard id={++id} name={item.name} img={item.images[0]}/>;
+                return <ProductItemCard key={++id} id={++id} name={item.name} img={item.images[0]}/>;
             });
             setProducts(prods);
         }, 1000);

@@ -11,7 +11,7 @@ export function ProductItemCard(props: ProductItemProps) {
     const {id, name, img} = props;
 
     return (
-        <div key={id} className='ProductItemCard' style={{animationDelay: `${0.2 * id}s`}}>
+        <div className='ProductItemCard' style={{animationDelay: `${0.1 * id}s`}}>
             <div className='ProductItemCard-img-container'>
                 <img alt='' src={require(`../assets/images/products/stainless_steel/${img}`)}/>
             </div>

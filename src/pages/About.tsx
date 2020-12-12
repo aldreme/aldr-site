@@ -10,8 +10,8 @@ function About() {
     const { t } = useTranslation();
 
     return (
-        <div className='About-layout noselect'>
-            <div className='About-banner'>
+        <div className='About-layout'>
+            <div className='About-banner noselect'>
                 <div className='About-banner-img'>
                     <img alt="" src={banner_img} />
                 </div>
@@ -19,6 +19,10 @@ function About() {
                 <div className='About-banner-caption'>
                     <p className='About-banner-caption-h0'>{t('ABOUT US')}</p>
                 </div>
+            </div>
+
+            <div className='About-content'>
+                <p>{t('about-us')}</p>
             </div>
         </div>
     );
