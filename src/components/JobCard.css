@@ -34,7 +34,7 @@
 
 .JobCard-caption {
     width: 100%;
-    font-size: 4vmin;
+    font-size: 2vmax;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -63,7 +63,7 @@
 }
 
 .JobCard-description {
-    font-size: 2vmin;
+    font-size: 1.8vmin;
     display: flex;
     flex-direction: column;
     justify-content: center;

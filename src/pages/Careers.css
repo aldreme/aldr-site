@@ -5,6 +5,11 @@
     min-height: 120vh;
     background-color: black;
     padding-top: 30vmin;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .Careers-banner {
@@ -76,10 +81,13 @@
 }
 
 .Jobs-list-layout {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    padding-left: 40vmin;
-    padding-right: 40vmin;
+    margin-left: 20vmin;
+    margin-right: 20vmin;
+    max-width: 200vmin;
+    min-width: 100vmin;
 }

@@ -23,9 +23,9 @@ export function JobCard(props: JobItemProps) {
                 <div className='JobCard-caption'>
                     <div className='JobCard-caption-left'>
                         <p>{t(title)}</p>
-                        <p style={{fontSize: '3vmin'}}>({'>'} {t(salary)}/{t('year')})</p>
+                        <p style={{fontSize: '1.5vmax'}}>({'>'} {t(salary)}/{t('year')})</p>
                     </div>
-                    <p style={{fontSize: '3vmin'}}>{t(base)}</p>
+                    <p style={{fontSize: '1.5vmax'}}>{t(base)}</p>
                 </div>
             </div>
 
