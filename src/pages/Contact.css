@@ -101,6 +101,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin-right: 5vmin;
+    margin-left: 1vmin;
     height: 100%;
 
     color: white;
@@ -116,9 +117,10 @@
 }
 
 .Contact-map {
-    height: 50vh;
-    width: 40vw;
+    height: 60vmin;
+    width: 60vmin;
     margin-left: 5vmin;
+    margin-right: 1vmin;
     display: flex;
     flex-direction: column;
     justify-content: center;
