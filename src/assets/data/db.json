@@ -24,7 +24,7 @@
                 "category":"",
                 "tag":"",
                 "price": 0,
-                "images": ["cabinet-01.jpg", "bench-02.jpg"],
+                "images": ["cabinet-01.jpg", "cabinet-02.jpg"],
                 "description": "",
                 "specs": {
                     "dimension": {
