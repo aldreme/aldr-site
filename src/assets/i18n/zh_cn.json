@@ -49,5 +49,10 @@
     "100k": "10万",
     "year": "年",
 
-    "Send Resume": "发送简历"
+    "Send Resume": "发送简历",
+
+    "telephone": "联系电话",
+    "email": "电子邮件",
+    "address": "公司地址",
+    "1888 Pangjin Road, Wujiang, Suzhou, Jiangsu, China": "江苏省苏州市吴江区庞金路1888号"
 }

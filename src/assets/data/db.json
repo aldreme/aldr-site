@@ -517,5 +517,12 @@
             "description": "jd-sr-welder",
             "salary": "100k"
         }
-    ]
+    ],
+
+    "contact_info": {
+        "tel_cn": "(+86) 18051120028",
+        "tel_us": "(+1) 6178165389",
+        "email": "sales@aldreme.com",
+        "address": "1888 Pangjin Road, Wujiang, Suzhou, Jiangsu, China"
+    }
 }
