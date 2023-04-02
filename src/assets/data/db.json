@@ -520,9 +520,9 @@
     ],
 
     "contact_info": {
-        "tel_cn": "(+86) 18051120028",
-        "tel_us": "(+1) 6178165389",
+        "tel_cn": "+86 18051120028",
+        "tel_us": "+1 4242487465",
         "email": "sales@aldreme.com",
-        "address": "1888 Pangjin Road, Wujiang, Suzhou, Jiangsu, China"
+        "address": "address-info"
     }
 }
