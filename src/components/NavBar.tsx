@@ -93,7 +93,7 @@ function NavBar() {
             <div>
                 {routes.map(({ path, Component }) => (
                 <Route key={path} exact path={path}>
-                    {({ match }) => (
+                    {({ match } : any) => (
                     <CSSTransition
                         in={match != null}
                         timeout={500}
