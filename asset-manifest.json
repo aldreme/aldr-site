@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5458d0d3.chunk.css",
-    "main.js": "/static/js/main.c5610091.chunk.js",
-    "main.js.map": "/static/js/main.c5610091.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f7a10fa8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f7a10fa8.js.map",
-    "static/css/2.80f479d8.chunk.css": "/static/css/2.80f479d8.chunk.css",
-    "static/js/2.d6a97a46.chunk.js": "/static/js/2.d6a97a46.chunk.js",
-    "static/js/2.d6a97a46.chunk.js.map": "/static/js/2.d6a97a46.chunk.js.map",
+    "main.css": "/static/css/main.92c19419.chunk.css",
+    "main.js": "/static/js/main.ff783e84.chunk.js",
+    "main.js.map": "/static/js/main.ff783e84.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.486fdf55.js",
+    "runtime-main.js.map": "/static/js/runtime-main.486fdf55.js.map",
+    "static/css/2.437d98bc.chunk.css": "/static/css/2.437d98bc.chunk.css",
+    "static/js/2.7f96ff95.chunk.js": "/static/js/2.7f96ff95.chunk.js",
+    "static/js/2.7f96ff95.chunk.js.map": "/static/js/2.7f96ff95.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0336e88c5cf6c001f1845602c128863f.js": "/precache-manifest.0336e88c5cf6c001f1845602c128863f.js",
+    "precache-manifest.a98618fa37a52031b38d776923b27301.js": "/precache-manifest.a98618fa37a52031b38d776923b27301.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.80f479d8.chunk.css.map": "/static/css/2.80f479d8.chunk.css.map",
-    "static/css/main.5458d0d3.chunk.css.map": "/static/css/main.5458d0d3.chunk.css.map",
-    "static/js/2.d6a97a46.chunk.js.LICENSE.txt": "/static/js/2.d6a97a46.chunk.js.LICENSE.txt",
+    "static/css/2.437d98bc.chunk.css.map": "/static/css/2.437d98bc.chunk.css.map",
+    "static/css/main.92c19419.chunk.css.map": "/static/css/main.92c19419.chunk.css.map",
+    "static/js/2.7f96ff95.chunk.js.LICENSE.txt": "/static/js/2.7f96ff95.chunk.js.LICENSE.txt",
     "static/media/JnJ-logo.jpg": "/static/media/JnJ-logo.206f1246.jpg",
     "static/media/about-banner.jpg": "/static/media/about-banner.86f0d47e.jpg",
     "static/media/astrazeneca-logo.jpg": "/static/media/astrazeneca-logo.d5df2fcd.jpg",
@@ -50,7 +50,7 @@
     "static/media/fridge_cart-03.jpg": "/static/media/fridge_cart-03.d06f6d36.jpg",
     "static/media/fridge_cart-04.jpg": "/static/media/fridge_cart-04.19e5c7c0.jpg",
     "static/media/fridge_cart-05.jpg": "/static/media/fridge_cart-05.fc52387e.jpg",
-    "static/media/getFetch.cjs": "/static/media/getFetch.2b2b7da4.cjs",
+    "static/media/getFetch.cjs": "/static/media/getFetch.013f0b90.cjs",
     "static/media/grid_cart-01.jpg": "/static/media/grid_cart-01.777380f4.jpg",
     "static/media/grid_dolly-01.jpg": "/static/media/grid_dolly-01.15de375f.jpg",
     "static/media/grid_dolly-02.jpg": "/static/media/grid_dolly-02.02f9b0ba.jpg",
@@ -105,10 +105,10 @@
     "static/media/workbench-08.jpg": "/static/media/workbench-08.cf71be4f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f7a10fa8.js",
-    "static/css/2.80f479d8.chunk.css",
-    "static/js/2.d6a97a46.chunk.js",
-    "static/css/main.5458d0d3.chunk.css",
-    "static/js/main.c5610091.chunk.js"
+    "static/js/runtime-main.486fdf55.js",
+    "static/css/2.437d98bc.chunk.css",
+    "static/js/2.7f96ff95.chunk.js",
+    "static/css/main.92c19419.chunk.css",
+    "static/js/main.ff783e84.chunk.js"
   ]
 }
