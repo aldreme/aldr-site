@@ -29,6 +29,5 @@
 }
 
 .Partners-item img:hover {
-  width: 25vmin;
-  height: 25vmin;
+  transform: scale(1.1);
 }

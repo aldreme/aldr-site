@@ -3,12 +3,7 @@
 .Products-layout {
   width: 100%;
   min-height: 100vh;
-  background-color: black;
   padding-top: 30vmin;
-}
-
-.Products-banner {
-  width: 100%;
 }
 
 .Products-banner-img {
@@ -57,16 +52,15 @@
   align-items: center;
 
   flex: 2;
-  font-size: 6vw;
+  font-size: 4.5vmax;
   position: relative;
   opacity: 0;
   font-weight: bolder;
   text-shadow: #FFFFFF 0px 0px 10px;
 
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-name: fadein, slideup;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s;
 
   transition-duration: 150ms;
   transition-timing-function: ease-out;

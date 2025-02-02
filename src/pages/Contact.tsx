@@ -6,7 +6,6 @@ import { useTranslation } from 'react-i18next';
 import Map from '../components/Map';
 
 import db from '../assets/data/db.json';
-import banner_img from '../assets/images/contact/contact-banner.jpg';
 
 function Contact() {
   const { t } = useTranslation();
@@ -15,10 +14,6 @@ function Contact() {
   return (
     <div className='Contact-layout'>
       <div className='Contact-banner noselect'>
-        <div className='Contact-banner-img'>
-          <img alt='' src={banner_img} />
-        </div>
-
         <div className='Contact-banner-caption'>
           <p className='Contact-banner-caption-h0'>{t('CONTACT US')}</p>
         </div>
