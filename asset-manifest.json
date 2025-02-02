@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a44d61d.chunk.css",
-    "main.js": "/static/js/main.2d7d9a63.chunk.js",
-    "main.js.map": "/static/js/main.2d7d9a63.chunk.js.map",
+    "main.css": "/static/css/main.c58988e3.chunk.css",
+    "main.js": "/static/js/main.935ad89d.chunk.js",
+    "main.js.map": "/static/js/main.935ad89d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ba0e1d24.js",
     "runtime-main.js.map": "/static/js/runtime-main.ba0e1d24.js.map",
-    "static/css/2.437d98bc.chunk.css": "/static/css/2.437d98bc.chunk.css",
-    "static/js/2.6937540e.chunk.js": "/static/js/2.6937540e.chunk.js",
-    "static/js/2.6937540e.chunk.js.map": "/static/js/2.6937540e.chunk.js.map",
+    "static/css/2.a47d8a3b.chunk.css": "/static/css/2.a47d8a3b.chunk.css",
+    "static/js/2.eef1e5e0.chunk.js": "/static/js/2.eef1e5e0.chunk.js",
+    "static/js/2.eef1e5e0.chunk.js.map": "/static/js/2.eef1e5e0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.25cb89f3690fc1083c7c7d21e5fb3703.js": "/precache-manifest.25cb89f3690fc1083c7c7d21e5fb3703.js",
+    "precache-manifest.11d23dbb6232bab25758f9cf639232d4.js": "/precache-manifest.11d23dbb6232bab25758f9cf639232d4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.437d98bc.chunk.css.map": "/static/css/2.437d98bc.chunk.css.map",
-    "static/css/main.4a44d61d.chunk.css.map": "/static/css/main.4a44d61d.chunk.css.map",
-    "static/js/2.6937540e.chunk.js.LICENSE.txt": "/static/js/2.6937540e.chunk.js.LICENSE.txt",
+    "static/css/2.a47d8a3b.chunk.css.map": "/static/css/2.a47d8a3b.chunk.css.map",
+    "static/css/main.c58988e3.chunk.css.map": "/static/css/main.c58988e3.chunk.css.map",
+    "static/js/2.eef1e5e0.chunk.js.LICENSE.txt": "/static/js/2.eef1e5e0.chunk.js.LICENSE.txt",
     "static/media/JnJ-logo.jpg": "/static/media/JnJ-logo.206f1246.jpg",
     "static/media/about-banner.jpg": "/static/media/about-banner.86f0d47e.jpg",
     "static/media/astrazeneca-logo.jpg": "/static/media/astrazeneca-logo.d5df2fcd.jpg",
@@ -54,7 +54,7 @@
     "static/media/grid_dolly-01.jpg": "/static/media/grid_dolly-01.15de375f.jpg",
     "static/media/grid_dolly-02.jpg": "/static/media/grid_dolly-02.02f9b0ba.jpg",
     "static/media/home-banner-min.jpg": "/static/media/home-banner-min.7228f134.jpg",
-    "static/media/NavBar.css": "/static/media/i18n_icon.63d8b577.svg",
+    "static/media/i18n_icon.svg": "/static/media/i18n_icon.63d8b577.svg",
     "static/media/lilly-logo.png": "/static/media/lilly-logo.91ca342c.png",
     "static/media/locker-01.jpg": "/static/media/locker-01.dee696d8.jpg",
     "static/media/locker-02.jpg": "/static/media/locker-02.a88fc15a.jpg",
@@ -105,9 +105,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ba0e1d24.js",
-    "static/css/2.437d98bc.chunk.css",
-    "static/js/2.6937540e.chunk.js",
-    "static/css/main.4a44d61d.chunk.css",
-    "static/js/main.2d7d9a63.chunk.js"
+    "static/css/2.a47d8a3b.chunk.css",
+    "static/js/2.eef1e5e0.chunk.js",
+    "static/css/main.c58988e3.chunk.css",
+    "static/js/main.935ad89d.chunk.js"
   ]
 }
