@@ -1,93 +1,93 @@
 @import '../common/common.css';
 
 .Careers-layout {
-    width: 100%;
-    min-height: 120vh;
-    background-color: black;
-    padding-top: 30vmin;
+  width: 100%;
+  min-height: 120vh;
+  background-color: black;
+  padding-top: 30vmin;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .Careers-banner {
-    width: 100%;
+  width: 100%;
 }
 
 .Careers-banner-img {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: black;
 
-    overflow: hidden;
-    
-    width: 100%;
-    z-index: 0;
+  overflow: hidden;
+
+  width: 100%;
+  z-index: 0;
 }
 
 .Careers-banner-img img {
-    filter: brightness(70%);
-    width: 100%;
-    mask-image: linear-gradient(to top, rgba(7, 14, 18, 0) 0%, rgba(7, 14, 18, 0.85) 100%);
-    
-    margin: -5px;
+  filter: brightness(70%);
+  width: 100%;
+  mask-image: linear-gradient(to top, rgba(7, 14, 18, 0) 0%, rgba(7, 14, 18, 0.85) 100%);
 
-    opacity: 0;
-    animation-duration: 3s;
-    animation-name: fadein;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
+  margin: -5px;
+
+  opacity: 0;
+  animation-duration: 3s;
+  animation-name: fadein;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
 }
 
 .Careers-banner-caption {
-    top: 10vmin;
-    left: 0px;
-    position: absolute;
+  top: 10vmin;
+  left: 0px;
+  position: absolute;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    color: rgba(255, 255, 255, 0.8);
-    width: 100%;
+  color: rgba(255, 255, 255, 0.8);
+  width: 100%;
 }
 
 .Careers-banner-caption-h0 {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    flex:2;
-    font-size: 6vw;
-    position: relative;
-    opacity: 0;
-    font-weight: bolder;
-    text-shadow: #FFFFFF 0px 0px 10px;
+  flex: 2;
+  font-size: 6vw;
+  position: relative;
+  opacity: 0;
+  font-weight: bolder;
+  text-shadow: #FFFFFF 0px 0px 10px;
 
-    animation-duration: 1s;
-    animation-name: fadein, slideup;
-    animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-name: fadein, slideup;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
 
-    transition-duration: 150ms;
-    transition-timing-function: ease-out;
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
 }
 
 .Careers-banner-caption-h0:hover {
-    text-shadow: #FFFFFF 0px 0px 50px;
+  text-shadow: #FFFFFF 0px 0px 50px;
 }
 
 .Jobs-list-layout {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-    margin-left: 20vmin;
-    margin-right: 20vmin;
-    max-width: 200vmin;
-    min-width: 100vmin;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin-left: 20vmin;
+  margin-right: 20vmin;
+  max-width: 200vmin;
+  min-width: 100vmin;
 }

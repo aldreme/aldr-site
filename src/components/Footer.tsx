@@ -10,11 +10,13 @@ import police_icon from '../assets/images/misc/ccp-police-icon.png';
 function Footer() {
   const { t } = useTranslation();
 
+  const currentYear = new Date().getFullYear();
+
   return (
     <Card className="text-center Footer">
       <Card.Footer>
         <div>
-          {t("Copyright")} &#169; {t("2020 ALDR LLC. All rights reserved")}
+          {t("Copyright")} {currentYear} {t("ALDR LLC. All rights reserved")}
         </div>
         <div className="Footer-icp">
           <a className="Footer-icp-license" href="http://beian.miit.gov.cn">{t("cn-icp-license")}</a>

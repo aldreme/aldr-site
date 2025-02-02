@@ -1,8 +1,18 @@
 {
-  "name": "business-website",
+  "name": "aldr-website",
   "homepage": "https://aldreme.com",
   "version": "0.1.0",
   "private": true,
+
+  "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build && cp build/index.html build/404.html",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -30,17 +40,11 @@
     "typescript": "^4.9.3",
     "universal-cookie": "^4.0.3"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build && cp build/index.html build/404.html",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+
   "eslintConfig": {
     "extends": "react-app"
   },
+
   "browserslist": {
     "production": [
       ">0.2%",
@@ -56,5 +60,6 @@
   "devDependencies": {
     "@types/react-router-dom": "^5.1.5",
     "@types/rellax": "^1.7.3"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
