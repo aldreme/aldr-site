@@ -76,7 +76,7 @@ function AnimationApp() {
           setNavToggled(!isNavToggled)
         }} />
 
-        <NavBarBase.Collapse id="responsive-navbar-nav">
+        <NavBarBase.Collapse id="responsive-navbar-nav" className='d-flex align-items-stretch'>
           <Nav className="mr-auto">
             {routes.map(route => (
               <NavLink

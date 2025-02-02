@@ -7,23 +7,14 @@
   "scripts": {
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build && cp build/index.html build/404.html",
+    "dev": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
 
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "@types/jest": "^24.9.1",
-    "@types/node": "^12.12.56",
-    "@types/react": "^16.9.49",
-    "@types/react-dom": "^16.9.8",
-    "@types/react-router-bootstrap": "^0.24.5",
     "bootstrap": "^4.5.2",
-    "gh-pages": "^3.1.0",
     "i18next": "^19.7.0",
     "i18next-browser-languagedetector": "^6.0.1",
     "i18next-http-backend": "^1.0.18",
@@ -37,7 +28,6 @@
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "typescript": "^4.9.3",
     "universal-cookie": "^4.0.3"
   },
 
@@ -59,7 +49,17 @@
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.1.5",
-    "@types/rellax": "^1.7.3"
+    "@types/rellax": "^1.7.3",
+    "typescript": "^4.9.3",
+    "gh-pages": "^3.1.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.56",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-bootstrap": "^0.24.5"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
