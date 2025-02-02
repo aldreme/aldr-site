@@ -53,7 +53,7 @@ function Products() {
       return n1.name > n2.name ? 1 : n1.name === n2.name ? 0 : -1;
     }) as Product[];
 
-    // setProducts(productsData);
+    setProducts(productsData);
   }, [products.length]);
 
   return (

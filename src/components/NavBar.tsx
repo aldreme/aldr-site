@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
-import NavBarBase from 'react-bootstrap/Navbar';
+import NavbarBase from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Cookies from 'universal-cookie';
-import './NavBar.css';
+import './Navbar.css';
+
+import i18nIcon from '../assets/images/navbar/i18n_icon.svg';
 
 import { useTranslation } from 'react-i18next';
 
@@ -13,6 +15,7 @@ import {
   BrowserRouter as Router
 } from 'react-router-dom';
 
+import { Container } from 'react-bootstrap';
 import aboutPageBannerImg from '../assets/images/about/about-banner.jpg';
 import contactPageBannerImg from '../assets/images/contact/contact-banner.jpg';
 import homePageBannerImg from '../assets/images/home/home-banner-min.jpg';
@@ -31,7 +34,7 @@ interface RouteData {
   Component: () => JSX.Element
 }
 
-function NavBar() {
+function Navbar() {
   return (
     <Router>
       <AnimationApp />
@@ -53,10 +56,64 @@ function RenderedRoutes({ routes }: { routes: RouteData[] }) {
   )
 }
 
-function AnimationApp() {
-  const cookies = new Cookies();
+function NavbarBrand() {
+  return (
+    <NavbarBase.Brand href="/">
+      <img alt="logo" src={logo} className="Navbar-logo" />
+    </NavbarBase.Brand>
+  );
+}
 
-  const { t, i18n } = useTranslation();
+function NavbarLinks({ routes }: { routes: RouteData[] }) {
+  const cookies = new Cookies();
+  const { i18n } = useTranslation();
+
+  return (
+    <NavbarBase.Collapse id="responsive-navbar-nav">
+      <Nav className="me-auto">
+        {routes.map(route => (
+          <NavLink
+            className='Navbar-navlink'
+            key={route.path}
+            to={route.path}
+            activeClassName="active"
+            exact
+          >
+            {route.name}
+          </NavLink>
+        ))}
+      </Nav>
+
+      <Nav>
+        <NavDropdown
+          title={<img alt='i18n-icon' src={i18nIcon} />}
+          id="collasible-nav-dropdown"
+          className='px-5 mx-1'
+        >
+          <NavDropdown.Item
+            onClick={() => {
+              i18n.changeLanguage('en_us'); cookies.set('language', 'en_us');
+            }}
+            className='d-flex justify-content-center'
+          >
+            English
+          </NavDropdown.Item>
+          <NavDropdown.Item
+            onClick={() => {
+              i18n.changeLanguage('zh_cn'); cookies.set('language', 'zh_cn');
+            }}
+            className='d-flex justify-content-center'
+          >
+            简体中文
+          </NavDropdown.Item>
+        </NavDropdown>
+      </Nav>
+    </NavbarBase.Collapse>
+  )
+}
+
+function AnimationApp() {
+  const { t } = useTranslation();
 
   const [isScrollTop, setScrollTop] = useState(true)
   const [isNavExpanded, setNavExpanded] = useState(false)
@@ -82,18 +139,10 @@ function AnimationApp() {
     { path: '/contact', name: t('navbar-contact'), pageBannerImage: contactPageBannerImg, Component: Contact },
   ] as RouteData[];
 
-  function NavbarBrand() {
-    return (
-      <NavBarBase.Brand href="/">
-        <img alt="logo" src={logo} className="NavBar-logo" />
-      </NavBarBase.Brand>
-    );
-  }
-
   return (
     <div>
-      <NavBarBase
-        className={isScrollTop ? (isNavExpanded ? "NavBar-solid" : "NavBar-trans") : "NavBar-solid"}
+      <NavbarBase
+        className={isScrollTop ? (isNavExpanded ? "Navbar-solid" : "Navbar-trans") : "Navbar-solid"}
         expand="lg"
         expanded={isNavExpanded}
         variant="dark"
@@ -102,54 +151,24 @@ function AnimationApp() {
           setNavExpanded(false);
         }}
       >
-        <NavbarBrand />
+        <Container fluid>
+          <NavbarBrand />
 
-        <NavBarBase.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            setNavExpanded(!isNavExpanded);
-          }}
-        />
+          <NavbarBase.Toggle
+            aria-controls="responsive-navbar-nav"
+            onClick={() => {
+              setNavExpanded(!isNavExpanded);
+            }}
+          />
 
-        <NavBarBase.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            {routes.map(route => (
-              <NavLink
-                className='NavBar-navlink'
-                key={route.path}
-                to={route.path}
-                activeClassName="active"
-                exact
-              >
-                {route.name}
-              </NavLink>
-            ))}
-          </Nav>
+          <NavbarLinks routes={routes} />
+        </Container>
 
-          <Nav>
-            <NavDropdown title={t('navbar-languages')} id="collasible-nav-dropdown" className="NavBar-lang">
-              <NavDropdown.Item
-                onClick={() => {
-                  i18n.changeLanguage('en_us'); cookies.set('language', 'en_us');
-                }}
-              >
-                English
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                onClick={() => {
-                  i18n.changeLanguage('zh_cn'); cookies.set('language', 'zh_cn');
-                }}
-              >
-                简体中文
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </NavBarBase.Collapse>
-      </NavBarBase>
+      </NavbarBase>
 
       <RenderedRoutes routes={routes} />
     </div>
   )
 }
 
-export default NavBar;
+export default Navbar;

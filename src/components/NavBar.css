@@ -1,15 +1,15 @@
-.NavBar-trans {
+.Navbar-trans {
   transition-duration: .5s;
   transition-timing-function: ease-out;
 }
 
-.NavBar-solid {
+.Navbar-solid {
   background-color: rgba(0, 0, 0, 0.5);
   transition-duration: .5s;
   transition-timing-function: ease-out;
 }
 
-.NavBar-logo {
+.Navbar-logo {
   display: inline-block;
   vertical-align: middle;
   height: 2vw;
@@ -20,18 +20,18 @@
   transition-timing-function: ease-out;
 }
 
-.NavBar-logo:hover {
+.Navbar-logo:hover {
   box-shadow: #FFFFFF 0 0 20px;
 }
 
-.NavBar-navlink {
+.Navbar-navlink {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 15px;
   padding-bottom: 15px;
 
-  font-size: 1.2vmax;
+  font-size: 1.5vmax;
   font-family: Arial;
   font-weight: bold;
   text-decoration: none;
@@ -47,41 +47,16 @@
   height: 100%;
 }
 
-.NavBar-navlink:hover {
+.Navbar-navlink:hover {
   background-color: rgba(255, 255, 255, 0.3);
   color: white;
   text-decoration: none;
   text-shadow: #FFFFFF 0px 0px 5px;
 }
 
-.NavBar-lang {
-  position: relative;
-  top: -15px;
-}
-
-.NavBar-lang::before {
-  content: url('../assets/images/navbar/i18n_icon.svg');
-  position: relative;
-  left: -70px;
-  top: 38px;
-  width: 10px;
-  height: 10px;
-}
-
-.page-transition-enter {
-  opacity: 0;
-}
-
-.page-transition-enter-active {
-  opacity: 1;
-  transition: opacity 300ms;
-}
-
-.page-transition-exit {
-  opacity: 1;
-}
-
-.page-transition-exit-active {
-  opacity: 0;
-  transition: opacity 300ms;
+.Navbar-navlink-active {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  text-decoration: none;
+  text-shadow: #FFFFFF 0px 0px 5px;
 }

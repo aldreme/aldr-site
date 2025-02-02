@@ -31,8 +31,8 @@ function Contact() {
 
           <div style={{ display: 'flex', flexDirection: 'row' }}>
             <p style={{ textAlign: 'left', minWidth: '15vmin' }}>{t('email')}: </p>
-            <a style={{ color: 'white', marginLeft: '1vmin' }} href='mailto:sales@aldreme.com'>
-              sales@aldreme.com
+            <a style={{ color: 'white', marginLeft: '1vmin' }} href='mailto:contact@aldreme.com'>
+              contact@aldreme.com
             </a>
           </div>
           <div style={{ display: 'flex', flexDirection: 'row' }}>
