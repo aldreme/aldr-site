@@ -1,4 +1,4 @@
-.NavBar-transparent {
+.NavBar-trans {
   transition-duration: .5s;
   transition-timing-function: ease-out;
 }
@@ -58,26 +58,4 @@
   top: 38px;
   width: 10px;
   height: 10px;
-}
-
-.page {
-  width: 100%;
-}
-
-.page-enter {
-  opacity: 0;
-}
-
-.page-enter-active {
-  opacity: 1;
-  transition: opacity 500ms;
-}
-
-.page-exit {
-  opacity: 1;
-}
-
-.page-exit-active {
-  opacity: 0;
-  transition: opacity 500ms;
 }
